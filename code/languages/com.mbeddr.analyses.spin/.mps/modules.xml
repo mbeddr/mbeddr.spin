@@ -2,10 +2,12 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.c/com.mbeddr.analyses.spin.c.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.promela/com.mbeddr.analyses.spin.promela.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.c.rt/com.mbeddr.analyses.spin.c.rt.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.promela.rt/com.mbeddr.analyses.spin.promela.rt.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.c/com.mbeddr.analyses.spin.c.mpl" folder="c" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.promela/com.mbeddr.analyses.spin.promela.mpl" folder="promela" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.c.rt/com.mbeddr.analyses.spin.c.rt.msd" folder="c" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.promela.pluginSolution/com.mbeddr.analyses.spin.promela.pluginSolution.msd" folder="promela" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.promela.rt/com.mbeddr.analyses.spin.promela.rt.msd" folder="promela" />
+      <modulePath path="$PROJECT_DIR$/tests/com.mbeddr.analyses.spin.promela.testcode/com.mbeddr.analyses.spin.promela.testcode.msd" folder="test" />
     </projectModules>
   </component>
 </project>
