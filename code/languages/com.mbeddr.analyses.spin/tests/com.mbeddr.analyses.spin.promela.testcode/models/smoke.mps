@@ -29,6 +29,18 @@
         <reference id="2093108837558124071" name="var" index="3ZVs_2" />
       </concept>
     </language>
+    <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
+      <concept id="2671893947946158498" name="com.mbeddr.core.buildconfig.structure.StaticLibrary" flags="ng" index="29Nb31" />
+      <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
+        <child id="5046689135693761559" name="referencedModules" index="2eOfOg" />
+      </concept>
+      <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
+        <child id="5046689135694070731" name="binaries" index="2ePNbc" />
+      </concept>
+      <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
+        <reference id="7717755763392524108" name="module" index="2v9HqP" />
+      </concept>
+    </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064526131575" name="com.mbeddr.core.pointers.structure.StringLiteral" flags="ng" index="PhEJO">
         <property id="6113173064526131578" name="value" index="PhEJT" />
@@ -44,7 +56,6 @@
         <child id="6437088627575722833" name="contents" index="N3F5h" />
         <child id="1317894735999304826" name="imports" index="2OODSX" />
       </concept>
-      <concept id="6437088627575722830" name="com.mbeddr.core.modules.structure.ImplementationModule" flags="ng" index="N3F5e" />
       <concept id="6437088627575724001" name="com.mbeddr.core.modules.structure.Function" flags="ng" index="N3Fnx">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
@@ -148,10 +159,15 @@
       </node>
     </node>
   </node>
-  <node concept="N3F5e" id="GpUw9S8VLC">
-    <property role="TrG5h" value="d" />
-    <node concept="3GEVxB" id="GpUw9S8W4w" role="2OODSX">
-      <ref role="3GEb4d" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
+  <node concept="2v9HqL" id="GpUw9Sa0vT">
+    <node concept="29Nb31" id="GpUw9Sa0xi" role="2ePNbc">
+      <property role="TrG5h" value="lib" />
+      <node concept="2v9HqM" id="GpUw9Sa0xm" role="2eOfOg">
+        <ref role="2v9HqP" node="GpUw9S84U$" resolve="main" />
+      </node>
+      <node concept="2v9HqM" id="GpUw9Sa0xq" role="2eOfOg">
+        <ref role="2v9HqP" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
+      </node>
     </node>
   </node>
 </model>

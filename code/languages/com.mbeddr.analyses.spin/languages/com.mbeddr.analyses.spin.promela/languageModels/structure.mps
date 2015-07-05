@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" implicit="true" />
   </imports>
@@ -37,7 +38,10 @@
   <node concept="1TIwiD" id="GpUw9S5wBQ">
     <property role="TrG5h" value="PromelaModel" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
+    <ref role="1TJDcQ" to="x27k:5_l8w1EmTcX" resolve="Module" />
+    <node concept="PrWs8" id="GpUw9SahP4" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+    </node>
   </node>
   <node concept="PlHQZ" id="GpUw9S5_Xa">
     <property role="TrG5h" value="IPromelaModelContent" />
