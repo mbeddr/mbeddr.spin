@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="ir22" ref="r:f7aadd1f-58b5-46f2-bd42-e7f922dcc16e(com.mbeddr.analyses.spin.promela.structure)" implicit="true" />
   </imports>
   <registry>
@@ -21,6 +22,7 @@
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
+      <concept id="1179832490862" name="jetbrains.mps.lang.typesystem.structure.CreateStrongLessThanInequationStatement" flags="nn" index="2NvLDW" />
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <property id="1195213689297" name="overrides" index="18ip37" />
         <child id="1195213635060" name="body" index="18ibNy" />
@@ -53,6 +55,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -61,6 +66,7 @@
   <node concept="1YbPZF" id="GpUw9S9zRI">
     <property role="TrG5h" value="typeof_Run" />
     <property role="18ip37" value="true" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="GpUw9S9zRJ" role="18ibNy">
       <node concept="1Z5TYs" id="GpUw9S9$s2" role="3cqZAp">
         <node concept="mw_s8" id="GpUw9S9$JM" role="1ZfhKB">
@@ -84,6 +90,36 @@
     <node concept="1YaCAy" id="GpUw9S9zRL" role="1YuTPh">
       <property role="TrG5h" value="run" />
       <ref role="1YaFvo" to="ir22:GpUw9S99Bs" resolve="Run" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2yXYWA1JEJw">
+    <property role="TrG5h" value="typeof_BitType" />
+    <property role="3GE5qa" value="type" />
+    <node concept="3clFbS" id="2yXYWA1JEJx" role="18ibNy">
+      <node concept="2NvLDW" id="2yXYWA1KN6r" role="3cqZAp">
+        <node concept="mw_s8" id="2yXYWA1KN8p" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2yXYWA1KN8q" role="mwGJk">
+            <node concept="2ShNRf" id="2yXYWA1KN8r" role="1Z2MuG">
+              <node concept="3zrR0B" id="2yXYWA1KN8s" role="2ShVmc">
+                <node concept="3Tqbb2" id="2yXYWA1KN8t" role="3zrR0E">
+                  <ref role="ehGHo" to="mj1l:7lNBHBNBzyt" resolve="UnsignedInt8tType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2yXYWA1KN9X" role="1ZfhKB">
+          <node concept="1Z2H0r" id="2yXYWA1KN9Y" role="mwGJk">
+            <node concept="1YBJjd" id="2yXYWA1KN9Z" role="1Z2MuG">
+              <ref role="1YBMHb" node="2yXYWA1JEJz" resolve="bitType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2yXYWA1JEJz" role="1YuTPh">
+      <property role="TrG5h" value="bitType" />
+      <ref role="1YaFvo" to="ir22:2yXYWA1HHRk" resolve="BitType" />
     </node>
   </node>
 </model>

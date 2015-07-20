@@ -269,5 +269,12 @@
       <node concept="17QB3L" id="GpUw9SahPJ" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="2yXYWA1HXHF">
+    <property role="3GE5qa" value="type" />
+    <ref role="13h7C2" to="ir22:2yXYWA1HHRk" resolve="BitType" />
+    <node concept="13hLZK" id="2yXYWA1HXHG" role="13h7CW">
+      <node concept="3clFbS" id="2yXYWA1HXHH" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

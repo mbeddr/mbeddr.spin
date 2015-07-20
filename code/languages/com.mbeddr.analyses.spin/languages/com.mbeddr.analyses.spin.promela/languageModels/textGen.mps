@@ -207,6 +207,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="GpUw9S9R05">
+    <property role="3GE5qa" value="expression" />
     <ref role="WuzLi" to="ir22:GpUw9S99Bs" resolve="Run" />
     <node concept="11bSqf" id="GpUw9S9R06" role="11c4hB">
       <node concept="3clFbS" id="GpUw9S9R07" role="2VODD2">
@@ -285,6 +286,64 @@
         <node concept="lc7rE" id="GpUw9S9T6t" role="3cqZAp">
           <node concept="la8eA" id="GpUw9S9T6u" role="lcghm">
             <property role="lacIc" value="_pid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2yXYWA1HXJ5">
+    <property role="3GE5qa" value="type" />
+    <ref role="WuzLi" to="ir22:2yXYWA1HHRk" resolve="BitType" />
+    <node concept="11bSqf" id="2yXYWA1HXJ6" role="11c4hB">
+      <node concept="3clFbS" id="2yXYWA1HXJ7" role="2VODD2">
+        <node concept="lc7rE" id="2yXYWA1HXKT" role="3cqZAp">
+          <node concept="la8eA" id="2yXYWA1HXKU" role="lcghm">
+            <property role="lacIc" value="bit" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2yXYWA1KT48">
+    <property role="3GE5qa" value="statement" />
+    <ref role="WuzLi" to="ir22:2yXYWA1KSBs" resolve="Assert" />
+    <node concept="11bSqf" id="2yXYWA1KT49" role="11c4hB">
+      <node concept="3clFbS" id="2yXYWA1KT4a" role="2VODD2">
+        <node concept="lc7rE" id="2yXYWA1KTpa" role="3cqZAp">
+          <node concept="la8eA" id="2yXYWA1KTpo" role="lcghm">
+            <property role="lacIc" value="assert(" />
+          </node>
+          <node concept="l9hG8" id="2yXYWA1KTq2" role="lcghm">
+            <node concept="2OqwBi" id="2yXYWA1KTvh" role="lb14g">
+              <node concept="117lpO" id="2yXYWA1KTqN" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2yXYWA1KVDp" role="2OqNvi">
+                <ref role="3Tt5mk" to="ir22:2yXYWA1KSX3" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="2yXYWA1KVHN" role="lcghm">
+            <property role="lacIc" value=");" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2yXYWA1L5EQ">
+    <property role="3GE5qa" value="statement" />
+    <ref role="WuzLi" to="ir22:2yXYWA1L5z9" resolve="Atomic" />
+    <node concept="11bSqf" id="2yXYWA1L5ER" role="11c4hB">
+      <node concept="3clFbS" id="2yXYWA1L5ES" role="2VODD2">
+        <node concept="lc7rE" id="2yXYWA1L5Fy" role="3cqZAp">
+          <node concept="la8eA" id="2yXYWA1L5Fz" role="lcghm">
+            <property role="lacIc" value="atomic" />
+          </node>
+          <node concept="l9hG8" id="2yXYWA1L5F$" role="lcghm">
+            <node concept="2OqwBi" id="2yXYWA1L5F_" role="lb14g">
+              <node concept="117lpO" id="2yXYWA1L5FA" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2yXYWA1L6kc" role="2OqNvi">
+                <ref role="3Tt5mk" to="ir22:2yXYWA1L5zn" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
