@@ -498,20 +498,6 @@
       <node concept="2iRkQZ" id="GpUw9S6Wwb" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="GpUw9S757g">
-    <property role="3GE5qa" value="type" />
-    <ref role="1XX52x" to="ir22:GpUw9S734E" resolve="ByteType" />
-    <node concept="3F0ifn" id="GpUw9S757i" role="2wV5jI">
-      <property role="3F0ifm" value="byte" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="GpUw9S781e">
-    <property role="3GE5qa" value="type" />
-    <ref role="1XX52x" to="ir22:GpUw9S7815" resolve="IntType" />
-    <node concept="3F0ifn" id="GpUw9S781g" role="2wV5jI">
-      <property role="3F0ifm" value="int" />
-    </node>
-  </node>
   <node concept="24kQdi" id="GpUw9S95E0">
     <property role="3GE5qa" value="expression" />
     <ref role="1XX52x" to="ir22:GpUw9S95Dt" resolve="Pid" />
@@ -624,13 +610,6 @@
       <node concept="l2Vlx" id="2A5UqXJPGUf" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="2yXYWA1HNnc">
-    <property role="3GE5qa" value="type" />
-    <ref role="1XX52x" to="ir22:2yXYWA1HHRk" resolve="BitType" />
-    <node concept="3F0ifn" id="2yXYWA1HR4E" role="2wV5jI">
-      <property role="3F0ifm" value="bit" />
-    </node>
-  </node>
   <node concept="24kQdi" id="2yXYWA1KSXa">
     <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="ir22:2yXYWA1KSBs" resolve="Assert" />
@@ -664,6 +643,13 @@
         <ref role="1NtTu8" to="ir22:2yXYWA1L5zn" />
       </node>
       <node concept="l2Vlx" id="2yXYWA1LeHf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="49ppWwAfbw_">
+    <property role="3GE5qa" value="type" />
+    <ref role="1XX52x" to="ir22:GpUw9S7577" resolve="IPromelaType" />
+    <node concept="3F0A7n" id="49ppWwAfbWn" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:gOOYy9I" resolve="alias" />
     </node>
   </node>
 </model>

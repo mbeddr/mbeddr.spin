@@ -148,5 +148,14 @@
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
   </node>
+  <node concept="1TIwiD" id="49ppWwAfbw3">
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="ShortType" />
+    <property role="34LRSv" value="short" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+    <node concept="PrWs8" id="49ppWwAfbwt" role="PzmwI">
+      <ref role="PrY4T" node="GpUw9S7577" resolve="IPromelaType" />
+    </node>
+  </node>
 </model>
 

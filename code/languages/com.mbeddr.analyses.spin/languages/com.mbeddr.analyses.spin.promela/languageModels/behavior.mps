@@ -68,6 +68,9 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -136,8 +139,8 @@
       <ref role="13i0hy" to="ywuz:61lw97FtLtJ" resolve="getUsedBytes" />
       <node concept="3Tm1VV" id="GpUw9S781o" role="1B3o_S" />
       <node concept="3clFbS" id="GpUw9S781r" role="3clF47">
-        <node concept="3clFbF" id="GpUw9S781A" role="3cqZAp">
-          <node concept="3cmrfG" id="GpUw9S781_" role="3clFbG">
+        <node concept="3cpWs6" id="49ppWwAfcif" role="3cqZAp">
+          <node concept="3cmrfG" id="49ppWwAfcig" role="3cqZAk">
             <property role="3cmrfH" value="4" />
           </node>
         </node>
@@ -274,6 +277,28 @@
     <ref role="13h7C2" to="ir22:2yXYWA1HHRk" resolve="BitType" />
     <node concept="13hLZK" id="2yXYWA1HXHG" role="13h7CW">
       <node concept="3clFbS" id="2yXYWA1HXHH" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="49ppWwAfc4I">
+    <property role="3GE5qa" value="type" />
+    <ref role="13h7C2" to="ir22:49ppWwAfbw3" resolve="ShortType" />
+    <node concept="13hLZK" id="49ppWwAfc4J" role="13h7CW">
+      <node concept="3clFbS" id="49ppWwAfc4K" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="49ppWwAfc5Y" role="13h7CS">
+      <property role="TrG5h" value="getUsedBytes" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="ywuz:61lw97FtLtJ" resolve="getUsedBytes" />
+      <node concept="3Tm1VV" id="49ppWwAfc5Z" role="1B3o_S" />
+      <node concept="3clFbS" id="49ppWwAfc64" role="3clF47">
+        <node concept="3cpWs6" id="49ppWwAfcan" role="3cqZAp">
+          <node concept="3cmrfG" id="49ppWwAfcd1" role="3cqZAk">
+            <property role="3cmrfH" value="2" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="49ppWwAfc65" role="3clF45" />
     </node>
   </node>
 </model>

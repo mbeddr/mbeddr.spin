@@ -18,11 +18,18 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
     </language>
+    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
+        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
+      </concept>
+      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
+        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
+      </concept>
+    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
-      <concept id="1179832490862" name="jetbrains.mps.lang.typesystem.structure.CreateStrongLessThanInequationStatement" flags="nn" index="2NvLDW" />
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <property id="1195213689297" name="overrides" index="18ip37" />
         <child id="1195213635060" name="body" index="18ibNy" />
@@ -92,34 +99,112 @@
       <ref role="1YaFvo" to="ir22:GpUw9S99Bs" resolve="Run" />
     </node>
   </node>
-  <node concept="1YbPZF" id="2yXYWA1JEJw">
-    <property role="TrG5h" value="typeof_BitType" />
+  <node concept="1YbPZF" id="49ppWwAf2BG">
+    <property role="18ip37" value="true" />
+    <property role="TrG5h" value="typeof_ByteType" />
     <property role="3GE5qa" value="type" />
-    <node concept="3clFbS" id="2yXYWA1JEJx" role="18ibNy">
-      <node concept="2NvLDW" id="2yXYWA1KN6r" role="3cqZAp">
-        <node concept="mw_s8" id="2yXYWA1KN8p" role="1ZfhK$">
-          <node concept="1Z2H0r" id="2yXYWA1KN8q" role="mwGJk">
-            <node concept="2ShNRf" id="2yXYWA1KN8r" role="1Z2MuG">
-              <node concept="3zrR0B" id="2yXYWA1KN8s" role="2ShVmc">
-                <node concept="3Tqbb2" id="2yXYWA1KN8t" role="3zrR0E">
-                  <ref role="ehGHo" to="mj1l:7lNBHBNBzyt" resolve="UnsignedInt8tType" />
-                </node>
-              </node>
+    <node concept="3clFbS" id="49ppWwAf2BH" role="18ibNy">
+      <node concept="1Z5TYs" id="49ppWwAf2Eg" role="3cqZAp">
+        <node concept="mw_s8" id="49ppWwAf2EG" role="1ZfhKB">
+          <node concept="2pJPEk" id="49ppWwAf2EC" role="mwGJk">
+            <node concept="2pJPED" id="49ppWwAf2EU" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzyt" resolve="UnsignedInt8tType" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="2yXYWA1KN9X" role="1ZfhKB">
-          <node concept="1Z2H0r" id="2yXYWA1KN9Y" role="mwGJk">
-            <node concept="1YBJjd" id="2yXYWA1KN9Z" role="1Z2MuG">
-              <ref role="1YBMHb" node="2yXYWA1JEJz" resolve="bitType" />
+        <node concept="mw_s8" id="49ppWwAf2Ej" role="1ZfhK$">
+          <node concept="1Z2H0r" id="49ppWwAf2BZ" role="mwGJk">
+            <node concept="1YBJjd" id="49ppWwAf2Cu" role="1Z2MuG">
+              <ref role="1YBMHb" node="49ppWwAf2BM" resolve="type" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="2yXYWA1JEJz" role="1YuTPh">
-      <property role="TrG5h" value="bitType" />
+    <node concept="1YaCAy" id="49ppWwAf2BM" role="1YuTPh">
+      <property role="TrG5h" value="type" />
+      <ref role="1YaFvo" to="ir22:GpUw9S734E" resolve="ByteType" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="49ppWwAf50A">
+    <property role="TrG5h" value="typeof_BitType" />
+    <property role="18ip37" value="true" />
+    <property role="3GE5qa" value="type" />
+    <node concept="3clFbS" id="49ppWwAf50B" role="18ibNy">
+      <node concept="1Z5TYs" id="49ppWwAf7kK" role="3cqZAp">
+        <node concept="mw_s8" id="49ppWwAf7kL" role="1ZfhKB">
+          <node concept="2pJPEk" id="49ppWwAf7kM" role="mwGJk">
+            <node concept="2pJPED" id="49ppWwAf7kN" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzyt" resolve="UnsignedInt8tType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="49ppWwAf7kO" role="1ZfhK$">
+          <node concept="1Z2H0r" id="49ppWwAf7kP" role="mwGJk">
+            <node concept="1YBJjd" id="49ppWwAf7kQ" role="1Z2MuG">
+              <ref role="1YBMHb" node="49ppWwAf50G" resolve="type" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="49ppWwAf50G" role="1YuTPh">
+      <property role="TrG5h" value="type" />
       <ref role="1YaFvo" to="ir22:2yXYWA1HHRk" resolve="BitType" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="49ppWwAfbqu">
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="typeof_IntType" />
+    <property role="18ip37" value="true" />
+    <node concept="3clFbS" id="49ppWwAfbqv" role="18ibNy">
+      <node concept="1Z5TYs" id="49ppWwAfbrd" role="3cqZAp">
+        <node concept="mw_s8" id="49ppWwAfbre" role="1ZfhKB">
+          <node concept="2pJPEk" id="49ppWwAfbrf" role="mwGJk">
+            <node concept="2pJPED" id="49ppWwAfbv_" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzy8" resolve="Int32tType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="49ppWwAfbrh" role="1ZfhK$">
+          <node concept="1Z2H0r" id="49ppWwAfbri" role="mwGJk">
+            <node concept="1YBJjd" id="49ppWwAfbrj" role="1Z2MuG">
+              <ref role="1YBMHb" node="49ppWwAfbq$" resolve="type" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="49ppWwAfbq$" role="1YuTPh">
+      <property role="TrG5h" value="type" />
+      <ref role="1YaFvo" to="ir22:GpUw9S7815" resolve="IntType" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="49ppWwAfciz">
+    <property role="TrG5h" value="typeof_ShortType" />
+    <property role="3GE5qa" value="type" />
+    <property role="18ip37" value="true" />
+    <node concept="3clFbS" id="49ppWwAfci$" role="18ibNy">
+      <node concept="1Z5TYs" id="49ppWwAfcmO" role="3cqZAp">
+        <node concept="mw_s8" id="49ppWwAfcng" role="1ZfhKB">
+          <node concept="2pJPEk" id="49ppWwAfcnJ" role="mwGJk">
+            <node concept="2pJPED" id="49ppWwAfcnX" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzy3" resolve="Int16tType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="49ppWwAfcmR" role="1ZfhK$">
+          <node concept="1Z2H0r" id="49ppWwAfckJ" role="mwGJk">
+            <node concept="1YBJjd" id="49ppWwAfcle" role="1Z2MuG">
+              <ref role="1YBMHb" node="49ppWwAfciA" resolve="type" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="49ppWwAfciA" role="1YuTPh">
+      <property role="TrG5h" value="type" />
+      <ref role="1YaFvo" to="ir22:49ppWwAfbw3" resolve="ShortType" />
     </node>
   </node>
 </model>
