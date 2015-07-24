@@ -34,9 +34,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
-      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -160,9 +157,8 @@
                   <node concept="37vLTw" id="4kcU3Yrkv6X" role="3uHU7B">
                     <ref role="3cqZAo" node="4XbM$YH6pfB" resolve="pathToGeneratedDirectory" />
                   </node>
-                  <node concept="10M0yZ" id="4kcU3Yrkvf6" role="3uHU7w">
-                    <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
-                    <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                  <node concept="Xl_RD" id="2jb6dmWZbIN" role="3uHU7w">
+                    <property role="Xl_RC" value="/" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="4kcU3Yrkw8b" role="3uHU7w">
@@ -222,7 +218,7 @@
             </node>
             <node concept="TSZUe" id="4kcU3Yrk$ii" role="2OqNvi">
               <node concept="Xl_RD" id="4kcU3Yrk$_Y" role="25WWJ7">
-                <property role="Xl_RC" value="-n2" />
+                <property role="Xl_RC" value="-run" />
               </node>
             </node>
           </node>
