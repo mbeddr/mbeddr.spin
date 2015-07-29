@@ -12,8 +12,8 @@
   <imports>
     <import index="hr62" ref="r:0f006508-b2f4-4b98-82de-5b32de29d868(testing_utils)" />
     <import index="8e9v" ref="r:a21516a4-23a5-4dc7-826d-37c3fde5c4e3(com.mbeddr.analyses.utils.tools)" />
+    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -169,6 +169,150 @@
   </node>
   <node concept="2XOHcx" id="1f0gqNzAccm">
     <property role="2XOHcw" value="${mbeddr.spin.home}/code/languages/com.mbeddr.analyses.spin/" />
+  </node>
+  <node concept="1lH9Xt" id="24G9CRyL2ZB">
+    <property role="TrG5h" value="IfTest" />
+    <node concept="1LZb2c" id="24G9CRyL3qY" role="1SL9yI">
+      <property role="TrG5h" value="smoke" />
+      <node concept="3cqZAl" id="24G9CRyL3qZ" role="3clF45" />
+      <node concept="3clFbS" id="24G9CRyL3r0" role="3clF47">
+        <node concept="3cpWs8" id="24G9CRyL3yE" role="3cqZAp">
+          <node concept="3cpWsn" id="24G9CRyL3yF" role="3cpWs9">
+            <property role="TrG5h" value="res" />
+            <node concept="3uibUv" id="24G9CRyL3yG" role="1tU5fm">
+              <ref role="3uigEE" to="8e9v:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+            </node>
+            <node concept="2YIFZM" id="24G9CRyL3yH" role="33vP2m">
+              <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
+              <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
+              <node concept="BaHAS" id="24G9CRyL3yI" role="37wK5m">
+                <property role="BaHAW" value="smoke" />
+                <property role="BaGAP" value="" />
+              </node>
+              <node concept="Xl_RD" id="24G9CRyL3yJ" role="37wK5m">
+                <property role="Xl_RC" value="if_test" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="24G9CRyL3yK" role="3cqZAp" />
+        <node concept="3clFbF" id="24G9CRyL7cb" role="3cqZAp">
+          <node concept="2OqwBi" id="24G9CRyL7cc" role="3clFbG">
+            <node concept="10M0yZ" id="24G9CRyL7cd" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="24G9CRyL7ce" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="24G9CRyL7cf" role="37wK5m">
+                <node concept="Xl_RD" id="24G9CRyL7cg" role="3uHU7B">
+                  <property role="Xl_RC" value="Output: \n\n" />
+                </node>
+                <node concept="2OqwBi" id="24G9CRyL7ch" role="3uHU7w">
+                  <node concept="37vLTw" id="24G9CRyL7ci" role="2Oq$k0">
+                    <ref role="3cqZAo" node="24G9CRyL3yF" resolve="res" />
+                  </node>
+                  <node concept="liA8E" id="24G9CRyL7cj" role="2OqNvi">
+                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="24G9CRyL3yU" role="3cqZAp" />
+        <node concept="3vwNmj" id="24G9CRyL3yV" role="3cqZAp">
+          <node concept="2OqwBi" id="24G9CRyL3yW" role="3vwVQn">
+            <node concept="2OqwBi" id="24G9CRyL3yX" role="2Oq$k0">
+              <node concept="37vLTw" id="24G9CRyL3yY" role="2Oq$k0">
+                <ref role="3cqZAo" node="24G9CRyL3yF" resolve="res" />
+              </node>
+              <node concept="liA8E" id="24G9CRyL3yZ" role="2OqNvi">
+                <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+              </node>
+            </node>
+            <node concept="liA8E" id="24G9CRyL3z0" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="24G9CRyL3z1" role="37wK5m">
+                <property role="Xl_RC" value="assertion violated (n!=2)" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="24G9CRyL9u8">
+    <property role="TrG5h" value="DoTest" />
+    <node concept="1LZb2c" id="24G9CRyL9u9" role="1SL9yI">
+      <property role="TrG5h" value="smoke" />
+      <node concept="3cqZAl" id="24G9CRyL9ua" role="3clF45" />
+      <node concept="3clFbS" id="24G9CRyL9ub" role="3clF47">
+        <node concept="3cpWs8" id="24G9CRyL9uc" role="3cqZAp">
+          <node concept="3cpWsn" id="24G9CRyL9ud" role="3cpWs9">
+            <property role="TrG5h" value="res" />
+            <node concept="3uibUv" id="24G9CRyL9ue" role="1tU5fm">
+              <ref role="3uigEE" to="8e9v:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+            </node>
+            <node concept="2YIFZM" id="24G9CRyL9uf" role="33vP2m">
+              <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
+              <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
+              <node concept="BaHAS" id="24G9CRyL9ug" role="37wK5m">
+                <property role="BaHAW" value="smoke" />
+                <property role="BaGAP" value="" />
+              </node>
+              <node concept="Xl_RD" id="24G9CRyL9uh" role="37wK5m">
+                <property role="Xl_RC" value="do_test" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="24G9CRyL9ui" role="3cqZAp" />
+        <node concept="3clFbF" id="24G9CRyL9uj" role="3cqZAp">
+          <node concept="2OqwBi" id="24G9CRyL9uk" role="3clFbG">
+            <node concept="10M0yZ" id="24G9CRyL9ul" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="24G9CRyL9um" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="24G9CRyL9un" role="37wK5m">
+                <node concept="Xl_RD" id="24G9CRyL9uo" role="3uHU7B">
+                  <property role="Xl_RC" value="Output: \n\n" />
+                </node>
+                <node concept="2OqwBi" id="24G9CRyL9up" role="3uHU7w">
+                  <node concept="37vLTw" id="24G9CRyL9uq" role="2Oq$k0">
+                    <ref role="3cqZAo" node="24G9CRyL9ud" resolve="res" />
+                  </node>
+                  <node concept="liA8E" id="24G9CRyL9ur" role="2OqNvi">
+                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="24G9CRyL9us" role="3cqZAp" />
+        <node concept="3vwNmj" id="24G9CRyL9ut" role="3cqZAp">
+          <node concept="2OqwBi" id="24G9CRyL9uu" role="3vwVQn">
+            <node concept="2OqwBi" id="24G9CRyL9uv" role="2Oq$k0">
+              <node concept="37vLTw" id="24G9CRyL9uw" role="2Oq$k0">
+                <ref role="3cqZAo" node="24G9CRyL9ud" resolve="res" />
+              </node>
+              <node concept="liA8E" id="24G9CRyL9ux" role="2OqNvi">
+                <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+              </node>
+            </node>
+            <node concept="liA8E" id="24G9CRyL9uy" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="24G9CRyL9uz" role="37wK5m">
+                <property role="Xl_RC" value="assertion violated (n!=2)" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

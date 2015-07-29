@@ -15,6 +15,8 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -155,6 +157,66 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
     <node concept="PrWs8" id="49ppWwAfbwt" role="PzmwI">
       <ref role="PrY4T" node="GpUw9S7577" resolve="IPromelaType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24G9CRyJY0O">
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="Skip" />
+    <property role="34LRSv" value="skip" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="24G9CRyKjXn">
+    <property role="3GE5qa" value="statement.if" />
+    <property role="TrG5h" value="IfStatement" />
+    <property role="34LRSv" value="if" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyj" id="24G9CRyKntD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="24G9CRyKk_v" resolve="ChoiceLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24G9CRyKk6D">
+    <property role="3GE5qa" value="statement.if" />
+    <property role="TrG5h" value="Choice" />
+    <ref role="1TJDcQ" node="24G9CRyKk_v" resolve="ChoiceLike" />
+    <node concept="1TJgyj" id="24G9CRyKklR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="guard" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24G9CRyKk_v">
+    <property role="3GE5qa" value="statement.if" />
+    <property role="TrG5h" value="ChoiceLike" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="24G9CRyKkpz" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="stmts" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24G9CRyKk_D">
+    <property role="3GE5qa" value="statement.if" />
+    <property role="TrG5h" value="IfElse" />
+    <property role="34LRSv" value="else" />
+    <ref role="1TJDcQ" node="24G9CRyKk_v" resolve="ChoiceLike" />
+  </node>
+  <node concept="1TIwiD" id="24G9CRyKIw4">
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="DoStatement" />
+    <property role="34LRSv" value="do" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyj" id="24G9CRyKIwM" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="24G9CRyKk6D" resolve="Choice" />
     </node>
   </node>
 </model>
