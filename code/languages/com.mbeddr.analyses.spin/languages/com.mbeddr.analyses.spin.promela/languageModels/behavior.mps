@@ -394,5 +394,88 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="6rTOrQxf3li">
+    <ref role="13h7C2" to="ir22:6rTOrQxaWcX" resolve="Ltl" />
+    <node concept="13hLZK" id="6rTOrQxf3lj" role="13h7CW">
+      <node concept="3clFbS" id="6rTOrQxf3lk" role="2VODD2">
+        <node concept="3clFbF" id="6rTOrQxf3v0" role="3cqZAp">
+          <node concept="37vLTI" id="6rTOrQxf424" role="3clFbG">
+            <node concept="Xl_RD" id="6rTOrQxf42A" role="37vLTx">
+              <property role="Xl_RC" value="ltl" />
+            </node>
+            <node concept="2OqwBi" id="6rTOrQxf3zz" role="37vLTJ">
+              <node concept="13iPFW" id="6rTOrQxf3uZ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6rTOrQxf3Wj" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6rTOrQxh5MP">
+    <property role="3GE5qa" value="expression.ltl" />
+    <ref role="13h7C2" to="ir22:7_$cGNhUMlX" resolve="Always" />
+    <node concept="13i0hz" id="1frRXyI7URp" role="13h7CS">
+      <property role="TrG5h" value="getPriolevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" to="ywuz:5HxjapwgqKu" resolve="getPriolevel" />
+      <node concept="3clFbS" id="1frRXyI7URs" role="3clF47">
+        <node concept="3cpWs6" id="1frRXyI7WQU" role="3cqZAp">
+          <node concept="3cmrfG" id="1frRXyI7WR5" role="3cqZAk">
+            <property role="3cmrfH" value="500" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="1frRXyI7WQO" role="3clF45" />
+      <node concept="3Tm1VV" id="1frRXyI7WQP" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="6rTOrQxh5MQ" role="13h7CW">
+      <node concept="3clFbS" id="6rTOrQxh5MR" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6rTOrQxh5NL">
+    <property role="3GE5qa" value="expression.ltl" />
+    <ref role="13h7C2" to="ir22:7_$cGNhVRt3" resolve="Eventually" />
+    <node concept="13i0hz" id="6rTOrQxh5O6" role="13h7CS">
+      <property role="TrG5h" value="getPriolevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" to="ywuz:5HxjapwgqKu" resolve="getPriolevel" />
+      <node concept="3clFbS" id="6rTOrQxh5O7" role="3clF47">
+        <node concept="3cpWs6" id="6rTOrQxh5O8" role="3cqZAp">
+          <node concept="3cmrfG" id="6rTOrQxh5O9" role="3cqZAk">
+            <property role="3cmrfH" value="500" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="6rTOrQxh5Oa" role="3clF45" />
+      <node concept="3Tm1VV" id="6rTOrQxh5Ob" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="6rTOrQxh5NM" role="13h7CW">
+      <node concept="3clFbS" id="6rTOrQxh5NN" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6rTOrQxh5Or">
+    <property role="3GE5qa" value="expression.ltl" />
+    <ref role="13h7C2" to="ir22:7_$cGNhVRHR" resolve="Until" />
+    <node concept="13i0hz" id="6rTOrQxh5OK" role="13h7CS">
+      <property role="TrG5h" value="getPriolevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" to="ywuz:5HxjapwgqKu" resolve="getPriolevel" />
+      <node concept="3clFbS" id="6rTOrQxh5OL" role="3clF47">
+        <node concept="3cpWs6" id="6rTOrQxh5OM" role="3cqZAp">
+          <node concept="3cmrfG" id="6rTOrQxh5ON" role="3cqZAk">
+            <property role="3cmrfH" value="500" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="6rTOrQxh5OO" role="3clF45" />
+      <node concept="3Tm1VV" id="6rTOrQxh5OP" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="6rTOrQxh5Os" role="13h7CW">
+      <node concept="3clFbS" id="6rTOrQxh5Ot" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
