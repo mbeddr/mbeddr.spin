@@ -194,5 +194,57 @@
       <ref role="1YaFvo" to="ir22:GpUw9S734E" resolve="ByteType" />
     </node>
   </node>
+  <node concept="1YbPZF" id="24G9CRyMYYN">
+    <property role="TrG5h" value="typeof_MtypeMember" />
+    <property role="3GE5qa" value="type.mtype" />
+    <node concept="3clFbS" id="24G9CRyMYYO" role="18ibNy">
+      <node concept="1Z5TYs" id="7D99css6O2x" role="3cqZAp">
+        <node concept="mw_s8" id="7D99css6O2$" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7D99css6O2u" role="mwGJk">
+            <node concept="1YBJjd" id="24G9CRyMZHg" role="1Z2MuG">
+              <ref role="1YBMHb" node="24G9CRyMYYQ" resolve="mtypeMember" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="24G9CRyNG28" role="1ZfhKB">
+          <node concept="2pJPEk" id="24G9CRyNG29" role="mwGJk">
+            <node concept="2pJPED" id="24G9CRyNG2a" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzyt" resolve="UnsignedInt8tType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="24G9CRyMYYQ" role="1YuTPh">
+      <property role="TrG5h" value="mtypeMember" />
+      <ref role="1YaFvo" to="ir22:24G9CRyMYst" resolve="MtypeLiteral" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="24G9CRyNs3d">
+    <property role="TrG5h" value="typeof_MtypeLiteralRef" />
+    <property role="3GE5qa" value="type.mtype" />
+    <node concept="3clFbS" id="24G9CRyNs3e" role="18ibNy">
+      <node concept="1Z5TYs" id="24G9CRyNs3K" role="3cqZAp">
+        <node concept="mw_s8" id="24G9CRyNs3L" role="1ZfhKB">
+          <node concept="2pJPEk" id="24G9CRyNs3M" role="mwGJk">
+            <node concept="2pJPED" id="24G9CRyNs3N" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzyt" resolve="UnsignedInt8tType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="24G9CRyNs3O" role="1ZfhK$">
+          <node concept="1Z2H0r" id="24G9CRyNs3P" role="mwGJk">
+            <node concept="1YBJjd" id="24G9CRyNs5d" role="1Z2MuG">
+              <ref role="1YBMHb" node="24G9CRyNs3g" resolve="litRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="24G9CRyNs3g" role="1YuTPh">
+      <property role="TrG5h" value="litRef" />
+      <ref role="1YaFvo" to="ir22:24G9CRyNs2M" resolve="MtypeLiteralRef" />
+    </node>
+  </node>
 </model>
 
