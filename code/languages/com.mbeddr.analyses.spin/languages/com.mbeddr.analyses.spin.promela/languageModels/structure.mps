@@ -172,7 +172,7 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="24G9CRyKjXn">
-    <property role="3GE5qa" value="statement.if" />
+    <property role="3GE5qa" value="statement.if_do" />
     <property role="TrG5h" value="IfStatement" />
     <property role="34LRSv" value="if" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
@@ -184,7 +184,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="24G9CRyKk6D">
-    <property role="3GE5qa" value="statement.if" />
+    <property role="3GE5qa" value="statement.if_do" />
     <property role="TrG5h" value="Choice" />
     <property role="34LRSv" value="::" />
     <ref role="1TJDcQ" node="24G9CRyKk_v" resolve="ChoiceLike" />
@@ -196,7 +196,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="24G9CRyKk_v">
-    <property role="3GE5qa" value="statement.if" />
+    <property role="3GE5qa" value="statement.if_do" />
     <property role="TrG5h" value="ChoiceLike" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -209,13 +209,13 @@
     </node>
   </node>
   <node concept="1TIwiD" id="24G9CRyKk_D">
-    <property role="3GE5qa" value="statement.if" />
-    <property role="TrG5h" value="IfElse" />
+    <property role="3GE5qa" value="statement.if_do" />
+    <property role="TrG5h" value="Else" />
     <property role="34LRSv" value="else" />
     <ref role="1TJDcQ" node="24G9CRyKk_v" resolve="ChoiceLike" />
   </node>
   <node concept="1TIwiD" id="24G9CRyKIw4">
-    <property role="3GE5qa" value="statement.do" />
+    <property role="3GE5qa" value="statement.if_do" />
     <property role="TrG5h" value="DoStatement" />
     <property role="34LRSv" value="do" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
@@ -223,7 +223,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="members" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="24G9CRyKk6D" resolve="Choice" />
+      <ref role="20lvS9" node="24G9CRyKk_v" resolve="ChoiceLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="24G9CRyM83W">

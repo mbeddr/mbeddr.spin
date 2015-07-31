@@ -14,6 +14,7 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="ir22" ref="r:f7aadd1f-58b5-46f2-bd42-e7f922dcc16e(com.mbeddr.analyses.spin.promela.structure)" implicit="true" />
   </imports>
   <registry>
@@ -65,7 +66,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -475,6 +478,28 @@
     </node>
     <node concept="13hLZK" id="6rTOrQxh5Os" role="13h7CW">
       <node concept="3clFbS" id="6rTOrQxh5Ot" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6rTOrQxjLqp">
+    <property role="3GE5qa" value="statement" />
+    <ref role="13h7C2" to="ir22:24G9CRyM83W" resolve="Break" />
+    <node concept="13hLZK" id="6rTOrQxjLqq" role="13h7CW">
+      <node concept="3clFbS" id="6rTOrQxjLqr" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6rTOrQxjLsS" role="13h7CS">
+      <property role="TrG5h" value="simpleOneLiner" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="rj8d:1z9MsBsVy8o" resolve="simpleOneLiner" />
+      <node concept="3Tm1VV" id="6rTOrQxjLsT" role="1B3o_S" />
+      <node concept="3clFbS" id="6rTOrQxjLsY" role="3clF47">
+        <node concept="3clFbF" id="6rTOrQxjLvq" role="3cqZAp">
+          <node concept="3clFbT" id="6rTOrQxjLvp" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="6rTOrQxjLsZ" role="3clF45" />
     </node>
   </node>
 </model>

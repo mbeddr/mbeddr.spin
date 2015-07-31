@@ -179,7 +179,7 @@
     </language>
   </registry>
   <node concept="tC5Ba" id="3Hq87cj$2XJ">
-    <property role="TrG5h" value="CbmcGroup" />
+    <property role="TrG5h" value="PromelaGroup" />
     <node concept="tT9cl" id="39c7fuKvKLM" role="2f5YQi">
       <ref role="tU$_T" to="d244:53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
       <ref role="2f8Tey" to="d244:39c7fuKwbnA" resolve="mbeddrPlatformEditorPopupAnalysisExtensions" />
@@ -214,7 +214,7 @@
             <property role="TrG5h" value="tool" />
             <property role="3TUv4t" value="true" />
             <node concept="1xUVSX" id="2UdJgvFCNdI" role="1tU5fm">
-              <ref role="1xYkEM" node="6izRX53qGZb" resolve="CbmcRawResultTool" />
+              <ref role="1xYkEM" node="6izRX53qGZb" resolve="PromelaRawResultTool" />
             </node>
             <node concept="2OqwBi" id="2UdJgvFCNdJ" role="33vP2m">
               <node concept="2OqwBi" id="2UdJgvFCNdK" role="2Oq$k0">
@@ -224,7 +224,7 @@
                 </node>
               </node>
               <node concept="LR4U6" id="2UdJgvFCNdN" role="2OqNvi">
-                <ref role="LR4U5" node="6izRX53qGZb" resolve="CbmcRawResultTool" />
+                <ref role="LR4U5" node="6izRX53qGZb" resolve="PromelaRawResultTool" />
               </node>
             </node>
           </node>
@@ -317,7 +317,7 @@
     </node>
   </node>
   <node concept="sEfby" id="6izRX53qGZb">
-    <property role="TrG5h" value="CbmcRawResultTool" />
+    <property role="TrG5h" value="PromelaRawResultTool" />
     <property role="2XNbzY" value="Spin Result" />
     <node concept="2XrIbr" id="3Ymokd9FeZe" role="2XNbBy">
       <property role="TrG5h" value="setOutput" />

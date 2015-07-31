@@ -22,6 +22,7 @@
     <usedLanguage>b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)</usedLanguage>
     <usedLanguage>c1c2a88a-323c-4605-a37d-9ab77a2ccbd2(com.mbeddr.mpsutil.suppresswarning)</usedLanguage>
     <usedLanguage>f47ddd18-d113-4647-938b-1d9b2e1910dc(com.mbeddr.analyses.acsl.cbmc.gen)</usedLanguage>
+    <usedLanguage>17b818a8-8533-4efe-8f51-f532146ae66b(com.mbeddr.analyses.spin.c)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</usedDevKit>
@@ -31,6 +32,7 @@
     <language id="f47ddd18-d113-4647-938b-1d9b2e1910dc" fqName="com.mbeddr.analyses.acsl.cbmc.gen" version="0" />
     <language id="5d09074f-babf-4f2b-b78b-e9929af0f3be" fqName="com.mbeddr.analyses.base" version="0" />
     <language id="42270baf-e92c-4c32-b263-d617b3fce239" fqName="com.mbeddr.analyses.cbmc" version="0" />
+    <language id="17b818a8-8533-4efe-8f51-f532146ae66b" fqName="com.mbeddr.analyses.spin.c" version="0" />
     <language id="877b0e90-e1a6-4468-970c-dcb3f49f95ed" fqName="com.mbeddr.analyses.spin.promela" version="0" />
     <language id="53bab999-e9c3-428a-80be-fef5bed08f55" fqName="com.mbeddr.cc.trace" version="0" />
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
