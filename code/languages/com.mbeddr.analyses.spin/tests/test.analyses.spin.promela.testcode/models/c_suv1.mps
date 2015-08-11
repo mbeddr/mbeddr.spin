@@ -152,7 +152,7 @@
   <node concept="2v9HqL" id="1wu5Hv66n4w">
     <node concept="3tTJX2" id="1wu5Hv66n4_" role="2ePNbc">
       <property role="iO3LB" value="false" />
-      <property role="TrG5h" value="suv1" />
+      <property role="TrG5h" value="suv1_harness" />
       <node concept="2v9HqM" id="1wu5Hv66n4A" role="2eOfOg">
         <ref role="2v9HqP" node="1wu5Hv66n66" resolve="suv1" />
       </node>

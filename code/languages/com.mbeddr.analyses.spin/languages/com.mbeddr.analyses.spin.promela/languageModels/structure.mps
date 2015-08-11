@@ -73,9 +73,6 @@
     <node concept="PrWs8" id="GpUw9S6QMd" role="PzmwI">
       <ref role="PrY4T" node="GpUw9S5_Xa" resolve="IPromelaModelContent" />
     </node>
-    <node concept="PrWs8" id="GpUw9S6Wv2" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyi" id="2yXYWA1Lzgp" role="1TKVEl">
       <property role="TrG5h" value="active" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -426,6 +423,21 @@
   <node concept="PlHQZ" id="6rTOrQxb41m">
     <property role="3GE5qa" value="expression.ltl" />
     <property role="TrG5h" value="ILtlExpression" />
+  </node>
+  <node concept="1TIwiD" id="1wu5Hv68B$w">
+    <property role="TrG5h" value="Macro" />
+    <property role="34LRSv" value="inline" />
+    <property role="3GE5qa" value="macro" />
+    <ref role="1TJDcQ" to="x27k:5_l8w1EmTvx" resolve="Function" />
+    <node concept="PrWs8" id="1wu5Hv68BNc" role="PzmwI">
+      <ref role="PrY4T" node="GpUw9S5_Xa" resolve="IPromelaModelContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wu5Hv6c3zb">
+    <property role="3GE5qa" value="statement.if_do" />
+    <property role="TrG5h" value="BreakChoice" />
+    <property role="34LRSv" value="break" />
+    <ref role="1TJDcQ" node="24G9CRyKk_v" resolve="ChoiceLike" />
   </node>
 </model>
 

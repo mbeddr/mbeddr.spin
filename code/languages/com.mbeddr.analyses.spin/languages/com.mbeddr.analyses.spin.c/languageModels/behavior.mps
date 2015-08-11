@@ -440,7 +440,7 @@
         <node concept="3clFbF" id="34x64NyRAMb" role="3cqZAp">
           <node concept="37vLTI" id="34x64NyRAMc" role="3clFbG">
             <node concept="Xl_RD" id="34x64NyRAMd" role="37vLTx">
-              <property role="Xl_RC" value="-std=c99" />
+              <property role="Xl_RC" value="-std=c99 -DSAFETY" />
             </node>
             <node concept="2OqwBi" id="34x64NyRAMe" role="37vLTJ">
               <node concept="13iPFW" id="34x64NyRAMf" role="2Oq$k0" />
@@ -464,6 +464,27 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1wu5Hv6bKHx">
+    <ref role="13h7C2" to="velc:6rTOrQxjNFE" resolve="ProcRef" />
+    <node concept="13hLZK" id="1wu5Hv6bKHy" role="13h7CW">
+      <node concept="3clFbS" id="1wu5Hv6bKHz" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1wu5Hv6bKJN" role="13h7CS">
+      <property role="TrG5h" value="isLValue" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="ywuz:6iIoqg1yDKH" resolve="isLValue" />
+      <node concept="3Tm1VV" id="1wu5Hv6bKJO" role="1B3o_S" />
+      <node concept="3clFbS" id="1wu5Hv6bKKr" role="3clF47">
+        <node concept="3clFbF" id="1wu5Hv6bKMG" role="3cqZAp">
+          <node concept="3clFbT" id="1wu5Hv6bKMF" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="1wu5Hv6bKKs" role="3clF45" />
     </node>
   </node>
 </model>

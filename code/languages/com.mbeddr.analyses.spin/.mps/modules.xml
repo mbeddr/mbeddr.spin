@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.c/com.mbeddr.analyses.spin.c.mpl" folder="c" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.promela.patterns/com.mbeddr.analyses.spin.promela.patterns.mpl" folder="promela" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.analyses.spin.promela/com.mbeddr.analyses.spin.promela.mpl" folder="promela" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.c.rt/com.mbeddr.analyses.spin.c.rt.msd" folder="c" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.promela.pluginSolution/com.mbeddr.analyses.spin.promela.pluginSolution.msd" folder="promela" />
