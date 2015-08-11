@@ -250,6 +250,21 @@
       </node>
       <node concept="17QB3L" id="GpUw9SahPz" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="1wu5Hv66HzU" role="13h7CS">
+      <property role="TrG5h" value="isImplementationArtifact" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="hwgx:7Vd878ENIh6" resolve="isImplementationArtifact" />
+      <node concept="3Tm1VV" id="1wu5Hv66HzV" role="1B3o_S" />
+      <node concept="3clFbS" id="1wu5Hv66H$0" role="3clF47">
+        <node concept="3clFbF" id="1wu5Hv66HHR" role="3cqZAp">
+          <node concept="3clFbT" id="1wu5Hv66HHQ" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="1wu5Hv66H$1" role="3clF45" />
+    </node>
     <node concept="13i0hz" id="GpUw9SahP$" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />

@@ -88,6 +88,9 @@
     <node concept="PrWs8" id="GpUw9S6QMa" role="PzmwI">
       <ref role="PrY4T" node="GpUw9S5_Xa" resolve="IPromelaModelContent" />
     </node>
+    <node concept="PrWs8" id="1wu5Hv5YhPP" role="PzmwI">
+      <ref role="PrY4T" to="x27k:2MbfxrZI9YU" resolve="IMayActAsMainFunction" />
+    </node>
   </node>
   <node concept="1TIwiD" id="GpUw9S734E">
     <property role="TrG5h" value="ByteType" />

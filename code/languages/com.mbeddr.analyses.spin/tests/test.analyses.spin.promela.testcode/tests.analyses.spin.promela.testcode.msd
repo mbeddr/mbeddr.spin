@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">2ed50273-af07-4e30-9004-b1f89545178a(com.mbeddr.core.stdlib)</dependency>
+    <dependency reexport="false">~_PreferencesModule#com.mbeddr.analyses.spin.__spreferences.PlatformTemplates(com.mbeddr.analyses.spin.__spreferences.PlatformTemplates)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>877b0e90-e1a6-4468-970c-dcb3f49f95ed(com.mbeddr.analyses.spin.promela)</usedLanguage>
