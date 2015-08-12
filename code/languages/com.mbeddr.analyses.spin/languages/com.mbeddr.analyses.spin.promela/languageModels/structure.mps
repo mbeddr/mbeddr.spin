@@ -8,14 +8,16 @@
   <imports>
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
-    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" implicit="true" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -438,6 +440,31 @@
     <property role="TrG5h" value="BreakChoice" />
     <property role="34LRSv" value="break" />
     <ref role="1TJDcQ" node="24G9CRyKk_v" resolve="ChoiceLike" />
+  </node>
+  <node concept="1TIwiD" id="7Rf0$0HCP5j">
+    <property role="TrG5h" value="SpinExecutable" />
+    <property role="34LRSv" value="spin_exec" />
+    <property role="3GE5qa" value="platform" />
+    <ref role="1TJDcQ" to="51wr:4o9sgv8QoKi" resolve="Executable" />
+  </node>
+  <node concept="1TIwiD" id="7Rf0$0HCP5k">
+    <property role="TrG5h" value="SpinPlatform" />
+    <property role="34LRSv" value="spin" />
+    <property role="R4oN_" value="spin platform" />
+    <property role="3GE5qa" value="platform" />
+    <ref role="1TJDcQ" to="51wr:4BxItZJ4BoF" resolve="Platform" />
+    <node concept="1TJgyi" id="7Rf0$0HCP5l" role="1TKVEl">
+      <property role="TrG5h" value="compiler" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7Rf0$0HCP5m" role="1TKVEl">
+      <property role="TrG5h" value="compilerOptions" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7Rf0$0HCP5n" role="1TKVEl">
+      <property role="TrG5h" value="make" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

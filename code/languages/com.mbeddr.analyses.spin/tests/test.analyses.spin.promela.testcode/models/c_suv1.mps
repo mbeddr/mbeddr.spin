@@ -36,6 +36,12 @@
       <concept id="2390327893063559172" name="com.mbeddr.analyses.spin.promela.structure.DoStatement" flags="ng" index="33VGU9">
         <child id="2390327893063559218" name="members" index="33VGUZ" />
       </concept>
+      <concept id="9065467049586938195" name="com.mbeddr.analyses.spin.promela.structure.SpinExecutable" flags="ng" index="1gr5cj" />
+      <concept id="9065467049586938196" name="com.mbeddr.analyses.spin.promela.structure.SpinPlatform" flags="ng" index="1gr5ck">
+        <property id="9065467049586938197" name="compiler" index="1gr5cl" />
+        <property id="9065467049586938198" name="compilerOptions" index="1gr5cm" />
+        <property id="9065467049586938199" name="make" index="1gr5cn" />
+      </concept>
       <concept id="799927705160539981" name="com.mbeddr.analyses.spin.promela.structure.ProcType" flags="ng" index="1N3Vlf" />
       <concept id="799927705160539985" name="com.mbeddr.analyses.spin.promela.structure.Init" flags="ng" index="1N3Vlj" />
       <concept id="799927705160518134" name="com.mbeddr.analyses.spin.promela.structure.PromelaModel" flags="ng" index="1N3YfO" />
@@ -52,12 +58,6 @@
       <concept id="7420192473454784422" name="com.mbeddr.analyses.spin.c.structure.CExpr" flags="ng" index="37HnSr">
         <child id="7420192473454784423" name="expr" index="37HnSq" />
       </concept>
-      <concept id="1737851622206788920" name="com.mbeddr.analyses.spin.c.structure.SpinPlatform" flags="ng" index="3tTGfJ">
-        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
-        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
-        <property id="1737851622208724758" name="make" index="3u24B1" />
-      </concept>
-      <concept id="1737851622206794133" name="com.mbeddr.analyses.spin.c.structure.SpinExecutable" flags="ng" index="3tTJX2" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
@@ -150,7 +150,7 @@
     </language>
   </registry>
   <node concept="2v9HqL" id="1wu5Hv66n4w">
-    <node concept="3tTJX2" id="1wu5Hv66n4_" role="2ePNbc">
+    <node concept="1gr5cj" id="1wu5Hv66n4_" role="2ePNbc">
       <property role="iO3LB" value="false" />
       <property role="TrG5h" value="suv1_harness" />
       <node concept="2v9HqM" id="1wu5Hv66n4A" role="2eOfOg">
@@ -160,10 +160,10 @@
         <ref role="2v9HqP" node="1wu5Hv66n6o" resolve="suv1_harness" />
       </node>
     </node>
-    <node concept="3tTGfJ" id="1wu5Hv66n4C" role="2AWWZH">
-      <property role="2AWWZJ" value="gcc" />
-      <property role="2AWWZI" value="-std=c99" />
-      <property role="3u24B1" value="make" />
+    <node concept="1gr5ck" id="7Rf0$0HJbjo" role="2AWWZH">
+      <property role="1gr5cl" value="gcc" />
+      <property role="1gr5cm" value="-std=c99 -DSAFETY" />
+      <property role="1gr5cn" value="make" />
     </node>
   </node>
   <node concept="N3F5e" id="1wu5Hv66n66">

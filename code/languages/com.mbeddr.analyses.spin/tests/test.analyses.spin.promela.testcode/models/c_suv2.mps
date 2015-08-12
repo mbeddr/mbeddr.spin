@@ -28,6 +28,12 @@
       <concept id="2935779374999505372" name="com.mbeddr.analyses.spin.promela.structure.Assert" flags="ng" index="2DvB8l">
         <child id="2935779374999506755" name="exp" index="2DvBia" />
       </concept>
+      <concept id="9065467049586938195" name="com.mbeddr.analyses.spin.promela.structure.SpinExecutable" flags="ng" index="1gr5cj" />
+      <concept id="9065467049586938196" name="com.mbeddr.analyses.spin.promela.structure.SpinPlatform" flags="ng" index="1gr5ck">
+        <property id="9065467049586938197" name="compiler" index="1gr5cl" />
+        <property id="9065467049586938198" name="compilerOptions" index="1gr5cm" />
+        <property id="9065467049586938199" name="make" index="1gr5cn" />
+      </concept>
       <concept id="799927705160941637" name="com.mbeddr.analyses.spin.promela.structure.IntType" flags="ng" index="1N1mD7" />
       <concept id="799927705160539981" name="com.mbeddr.analyses.spin.promela.structure.ProcType" flags="ng" index="1N3Vlf" />
       <concept id="799927705160539985" name="com.mbeddr.analyses.spin.promela.structure.Init" flags="ng" index="1N3Vlj" />
@@ -41,12 +47,6 @@
       <concept id="7420192473454951146" name="com.mbeddr.analyses.spin.c.structure.ProcRef" flags="ng" index="37HIHn">
         <reference id="7420192473454951147" name="proc" index="37HIHm" />
       </concept>
-      <concept id="1737851622206788920" name="com.mbeddr.analyses.spin.c.structure.SpinPlatform" flags="ng" index="3tTGfJ">
-        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
-        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
-        <property id="1737851622208724758" name="make" index="3u24B1" />
-      </concept>
-      <concept id="1737851622206794133" name="com.mbeddr.analyses.spin.c.structure.SpinExecutable" flags="ng" index="3tTJX2" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
@@ -148,7 +148,7 @@
     </language>
   </registry>
   <node concept="2v9HqL" id="1wu5Hv68xEU">
-    <node concept="3tTJX2" id="1wu5Hv68xEV" role="2ePNbc">
+    <node concept="1gr5cj" id="1wu5Hv68xEV" role="2ePNbc">
       <property role="iO3LB" value="false" />
       <property role="TrG5h" value="suv2_harness" />
       <node concept="2v9HqM" id="1wu5Hv6bHWc" role="2eOfOg">
@@ -164,10 +164,10 @@
         <ref role="2v9HqP" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
       </node>
     </node>
-    <node concept="3tTGfJ" id="1wu5Hv68xEY" role="2AWWZH">
-      <property role="2AWWZJ" value="gcc" />
-      <property role="2AWWZI" value="-std=c99" />
-      <property role="3u24B1" value="make" />
+    <node concept="1gr5ck" id="7Rf0$0HJbjs" role="2AWWZH">
+      <property role="1gr5cl" value="gcc" />
+      <property role="1gr5cm" value="-std=c99 -DSAFETY" />
+      <property role="1gr5cn" value="make" />
     </node>
   </node>
   <node concept="N3F5e" id="1wu5Hv68xEZ">

@@ -38,6 +38,12 @@
       <concept id="2390327893063559172" name="com.mbeddr.analyses.spin.promela.structure.DoStatement" flags="ng" index="33VGU9">
         <child id="2390327893063559218" name="members" index="33VGUZ" />
       </concept>
+      <concept id="9065467049586938195" name="com.mbeddr.analyses.spin.promela.structure.SpinExecutable" flags="ng" index="1gr5cj" />
+      <concept id="9065467049586938196" name="com.mbeddr.analyses.spin.promela.structure.SpinPlatform" flags="ng" index="1gr5ck">
+        <property id="9065467049586938197" name="compiler" index="1gr5cl" />
+        <property id="9065467049586938198" name="compilerOptions" index="1gr5cm" />
+        <property id="9065467049586938199" name="make" index="1gr5cn" />
+      </concept>
       <concept id="799927705160941637" name="com.mbeddr.analyses.spin.promela.structure.IntType" flags="ng" index="1N1mD7" />
       <concept id="799927705160539981" name="com.mbeddr.analyses.spin.promela.structure.ProcType" flags="ng" index="1N3Vlf">
         <property id="2935779374999680025" name="active" index="2DuWZg" />
@@ -65,12 +71,6 @@
         <reference id="7420192473454951147" name="proc" index="37HIHm" />
       </concept>
       <concept id="7420192473454475067" name="com.mbeddr.analyses.spin.c.structure.CDecl" flags="ng" index="37Jyq6" />
-      <concept id="1737851622206788920" name="com.mbeddr.analyses.spin.c.structure.SpinPlatform" flags="ng" index="3tTGfJ">
-        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
-        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
-        <property id="1737851622208724758" name="make" index="3u24B1" />
-      </concept>
-      <concept id="1737851622206794133" name="com.mbeddr.analyses.spin.c.structure.SpinExecutable" flags="ng" index="3tTJX2" />
       <concept id="1737851622206712517" name="com.mbeddr.analyses.spin.c.structure.Printf" flags="ng" index="3tUrKi">
         <child id="1737851622206712591" name="args" index="3tUrRo" />
       </concept>
@@ -184,7 +184,7 @@
     </language>
   </registry>
   <node concept="2v9HqL" id="6rTOrQxi1se">
-    <node concept="3tTJX2" id="1wu5Hv66djJ" role="2ePNbc">
+    <node concept="1gr5cj" id="1wu5Hv66djJ" role="2ePNbc">
       <property role="iO3LB" value="false" />
       <property role="TrG5h" value="embeddedC_ch_17_example" />
       <node concept="2v9HqM" id="1wu5Hv66djT" role="2eOfOg">
@@ -197,10 +197,10 @@
         <ref role="2v9HqP" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
       </node>
     </node>
-    <node concept="3tTGfJ" id="1wu5Hv5Z20J" role="2AWWZH">
-      <property role="2AWWZJ" value="gcc" />
-      <property role="2AWWZI" value="-std=c99" />
-      <property role="3u24B1" value="make" />
+    <node concept="1gr5ck" id="7Rf0$0HJbjq" role="2AWWZH">
+      <property role="1gr5cl" value="gcc" />
+      <property role="1gr5cm" value="-std=c99 -DSAFETY" />
+      <property role="1gr5cn" value="make" />
     </node>
   </node>
   <node concept="1N3YfO" id="6rTOrQxi1wV">
