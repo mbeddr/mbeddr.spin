@@ -21,7 +21,9 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
@@ -1330,6 +1332,39 @@
         </node>
       </node>
       <node concept="l2Vlx" id="7Rf0$0HCQrU" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Rf0$0HLP$t">
+    <property role="3GE5qa" value="spin_api" />
+    <ref role="1XX52x" to="ir22:7Rf0$0HLP$h" resolve="Printf" />
+    <node concept="3EZMnI" id="7Rf0$0HLP$u" role="2wV5jI">
+      <node concept="3F0ifn" id="7Rf0$0HLP$v" role="3EZMnx">
+        <property role="3F0ifm" value="Printf" />
+      </node>
+      <node concept="3F0ifn" id="7Rf0$0HLP$w" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="7Rf0$0HLP$x" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="7Rf0$0HLP$y" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="7Rf0$0HLP$z" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="ir22:7Rf0$0HLP$i" />
+        <node concept="l2Vlx" id="7Rf0$0HLP$$" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="7Rf0$0HLP$_" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="7Rf0$0HLP$A" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7Rf0$0HLP$B" role="2iSdaV" />
+    </node>
+    <node concept="3F0ifn" id="7Rf0$0HLP$C" role="6VMZX">
+      <property role="3F0ifm" value="Spin internal printf which prints only when reproducing an error trace" />
     </node>
   </node>
 </model>

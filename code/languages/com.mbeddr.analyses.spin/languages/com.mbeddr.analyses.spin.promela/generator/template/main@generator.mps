@@ -465,12 +465,30 @@
               </node>
             </node>
             <node concept="raruj" id="7Rf0$0HGpdm" role="lGtFl" />
+            <node concept="17Uvod" id="7Rf0$0HL7G_" role="lGtFl">
+              <property role="P4ACc" value="f93d1dbe-bfd1-42dd-932a-f375fa6f5373/5950410542643587165/5950410542643587166" />
+              <property role="2qtEX9" value="label" />
+              <node concept="3zFVjK" id="7Rf0$0HL7GA" role="3zH0cK">
+                <node concept="3clFbS" id="7Rf0$0HL7GB" role="2VODD2">
+                  <node concept="3clFbF" id="7Rf0$0HLcMU" role="3cqZAp">
+                    <node concept="3cpWs3" id="7Rf0$0HLdxm" role="3clFbG">
+                      <node concept="2OqwBi" id="7Rf0$0HLdH4" role="3uHU7w">
+                        <node concept="30H73N" id="7Rf0$0HLd$4" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="7Rf0$0HLeaT" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="7Rf0$0HLcMT" role="3uHU7B">
+                        <property role="Xl_RC" value="spin_" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3O_Fa1" id="7Rf0$0HGpdn" role="3O_FaT">
             <property role="3O_Fa2" value="Main" />
-            <node concept="2sLwDE" id="7Rf0$0HGpdo" role="3O_FaZ">
-              <ref role="2sLwDD" node="7Rf0$0HGpd6" />
-            </node>
             <node concept="3O_FaX" id="7Rf0$0HGpdp" role="3O_FaS">
               <node concept="3G69iQ" id="7Rf0$0HGpdq" role="3G69ia">
                 <property role="3G69iL" value="$(CC) $(CFLAGS) -o $@ " />
@@ -768,6 +786,30 @@
               </node>
             </node>
             <node concept="raruj" id="7Rf0$0HGpfp" role="lGtFl" />
+            <node concept="3O_EAZ" id="7Rf0$0HLeP4" role="3O_FaZ">
+              <property role="3O_EAS" value="spin" />
+              <node concept="17Uvod" id="7Rf0$0HLfjp" role="lGtFl">
+                <property role="P4ACc" value="f93d1dbe-bfd1-42dd-932a-f375fa6f5373/5950410542643589987/5950410542643589988" />
+                <property role="2qtEX9" value="text" />
+                <node concept="3zFVjK" id="7Rf0$0HLfjq" role="3zH0cK">
+                  <node concept="3clFbS" id="7Rf0$0HLfjr" role="2VODD2">
+                    <node concept="3clFbF" id="7Rf0$0HLhL8" role="3cqZAp">
+                      <node concept="3cpWs3" id="7Rf0$0HLhL9" role="3clFbG">
+                        <node concept="2OqwBi" id="7Rf0$0HLhLa" role="3uHU7w">
+                          <node concept="30H73N" id="7Rf0$0HLhLb" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="7Rf0$0HLhLc" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="7Rf0$0HLhLd" role="3uHU7B">
+                          <property role="Xl_RC" value="spin_" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

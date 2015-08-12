@@ -16,11 +16,8 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
-        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
-      </concept>
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
-        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -59,11 +56,6 @@
       <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
-      </concept>
-    </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
     </language>
   </registry>
@@ -288,39 +280,6 @@
         </node>
       </node>
       <node concept="l2Vlx" id="6rTOrQxlXkY" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="1wu5Hv5XUGn">
-    <property role="3GE5qa" value="spin_api" />
-    <ref role="1XX52x" to="velc:1wu5Hv5XUF5" resolve="Printf" />
-    <node concept="3EZMnI" id="1wu5Hv5XUJe" role="2wV5jI">
-      <node concept="3F0ifn" id="1wu5Hv5XUJo" role="3EZMnx">
-        <property role="3F0ifm" value="Printf" />
-      </node>
-      <node concept="3F0ifn" id="1wu5Hv5XUJx" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <node concept="11L4FC" id="1wu5Hv5XULO" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11LMrY" id="1wu5Hv5XUNB" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="1wu5Hv5XUJZ" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="velc:1wu5Hv5XUGf" />
-        <node concept="l2Vlx" id="1wu5Hv5XUK1" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="1wu5Hv5XUJI" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <node concept="11L4FC" id="1wu5Hv5XUPn" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="1wu5Hv5XUJh" role="2iSdaV" />
-    </node>
-    <node concept="3F0ifn" id="1wu5Hv5Y2K9" role="6VMZX">
-      <property role="3F0ifm" value="Spin internal printf which prints only when reproducing an error trace" />
     </node>
   </node>
 </model>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:240d3229-bb70-4ba5-bcb1-799faf017402(smoke@tests)">
+<model ref="r:240d3229-bb70-4ba5-bcb1-799faf017402(promela@tests)">
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
@@ -111,7 +111,7 @@
               <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
               <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
               <node concept="BaHAS" id="4Nq31LVtNqy" role="37wK5m">
-                <property role="BaHAW" value="smoke" />
+                <property role="BaHAW" value="promela" />
                 <property role="BaGAP" value="" />
               </node>
               <node concept="Xl_RD" id="4Nq31LVtNqz" role="37wK5m">
@@ -131,14 +131,14 @@
               <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="3cpWs3" id="4Nq31LVunT6" role="37wK5m">
                 <node concept="Xl_RD" id="4Nq31LVunUS" role="3uHU7B">
-                  <property role="Xl_RC" value="Error: \n\n" />
+                  <property role="Xl_RC" value="Output: \n\n" />
                 </node>
                 <node concept="2OqwBi" id="4Nq31LVunG1" role="3uHU7w">
                   <node concept="37vLTw" id="4Nq31LVunFp" role="2Oq$k0">
                     <ref role="3cqZAo" node="4Nq31LVtNqw" resolve="res" />
                   </node>
                   <node concept="liA8E" id="4Nq31LVunSa" role="2OqNvi">
-                    <ref role="37wK5l" to="8e9v:4CtHBqNls$J" resolve="getErrorString" />
+                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
                   </node>
                 </node>
               </node>
@@ -153,7 +153,7 @@
                 <ref role="3cqZAo" node="4Nq31LVtNqw" resolve="res" />
               </node>
               <node concept="liA8E" id="4Nq31LVtOFH" role="2OqNvi">
-                <ref role="37wK5l" to="8e9v:4CtHBqNls$J" resolve="getErrorString" />
+                <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
               </node>
             </node>
             <node concept="liA8E" id="4Nq31LVu8z5" role="2OqNvi">
@@ -186,7 +186,7 @@
               <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
               <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
               <node concept="BaHAS" id="24G9CRyL3yI" role="37wK5m">
-                <property role="BaHAW" value="smoke" />
+                <property role="BaHAW" value="promela" />
                 <property role="BaGAP" value="" />
               </node>
               <node concept="Xl_RD" id="24G9CRyL3yJ" role="37wK5m">
@@ -258,7 +258,7 @@
               <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
               <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
               <node concept="BaHAS" id="24G9CRyL9ug" role="37wK5m">
-                <property role="BaHAW" value="smoke" />
+                <property role="BaHAW" value="promela" />
                 <property role="BaGAP" value="" />
               </node>
               <node concept="Xl_RD" id="24G9CRyL9uh" role="37wK5m">

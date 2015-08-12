@@ -466,5 +466,18 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7Rf0$0HLP$h">
+    <property role="TrG5h" value="Printf" />
+    <property role="34LRSv" value="Printf" />
+    <property role="R4oN_" value="the internal Printf of Spin" />
+    <property role="3GE5qa" value="spin_api" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="7Rf0$0HLP$i" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
