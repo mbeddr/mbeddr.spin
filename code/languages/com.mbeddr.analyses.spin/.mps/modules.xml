@@ -8,8 +8,8 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.c.rt/com.mbeddr.analyses.spin.c.rt.msd" folder="c" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.promela.pluginSolution/com.mbeddr.analyses.spin.promela.pluginSolution.msd" folder="promela" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.analyses.spin.promela.rt/com.mbeddr.analyses.spin.promela.rt.msd" folder="promela" />
-      <modulePath path="$PROJECT_DIR$/tests/test.analyses.spin.promela.testcode/tests.analyses.spin.promela.testcode.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/tests/test.analyses.spin.promela/test.analyses.spin.promela.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/tests/test.analyses.spin.promela.testcode/tests.analyses.spin.promela.testcode.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/tests/test.analyses.spin.promela/test.analyses.spin.promela.msd" folder="tests" />
     </projectModules>
   </component>
 </project>

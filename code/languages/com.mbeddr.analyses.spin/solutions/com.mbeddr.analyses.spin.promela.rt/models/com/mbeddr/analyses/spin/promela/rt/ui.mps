@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:90d0eee3-db73-4cfb-87f3-ebf4f5d81165(ui)">
+<model ref="r:90d0eee3-db73-4cfb-87f3-ebf4f5d81165(com.mbeddr.analyses.spin.promela.rt.ui)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
@@ -298,8 +298,8 @@
             <node concept="2ShNRf" id="4kcU3Yrmt6f" role="33vP2m">
               <node concept="1pGfFk" id="4kcU3Yrmt6g" role="2ShVmc">
                 <ref role="37wK5l" to="dbrf:~JScrollPane.&lt;init&gt;(java.awt.Component,int,int)" resolve="JScrollPane" />
-                <node concept="37vLTw" id="4kcU3Yrmt6h" role="37wK5m">
-                  <ref role="3cqZAo" node="6izRX53q3SS" resolve="stdoutText" />
+                <node concept="37vLTw" id="1wu5Hv6kzkh" role="37wK5m">
+                  <ref role="3cqZAo" node="4kcU3YrmsGl" resolve="stderrText" />
                 </node>
                 <node concept="10M0yZ" id="4kcU3Yrmt6i" role="37wK5m">
                   <ref role="3cqZAo" to="dbrf:~ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS" resolve="VERTICAL_SCROLLBAR_ALWAYS" />

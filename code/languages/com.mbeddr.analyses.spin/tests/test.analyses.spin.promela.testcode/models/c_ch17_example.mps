@@ -186,7 +186,7 @@
   <node concept="2v9HqL" id="6rTOrQxi1se">
     <node concept="3tTJX2" id="1wu5Hv66djJ" role="2ePNbc">
       <property role="iO3LB" value="false" />
-      <property role="TrG5h" value="ch_17" />
+      <property role="TrG5h" value="embeddedC_ch_17_example" />
       <node concept="2v9HqM" id="1wu5Hv66djT" role="2eOfOg">
         <ref role="2v9HqP" node="6rTOrQxi1wV" resolve="embeddedC_ch_17_example" />
       </node>

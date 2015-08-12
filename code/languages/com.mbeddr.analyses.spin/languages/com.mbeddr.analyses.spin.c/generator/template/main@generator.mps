@@ -208,7 +208,7 @@
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="1wu5Hv5Z$cZ" role="3lj3bC">
       <ref role="30HIoZ" to="51wr:6GqYvBOf2X8" resolve="BuildConfiguration" />
-      <ref role="3lhOvi" node="1wu5Hv5Zx$B" resolve="makefile" />
+      <ref role="3lhOvi" node="1wu5Hv5Zx$B" resolve="Makefile" />
     </node>
     <node concept="3aamgX" id="1wu5Hv5Y$h5" role="3acgRq">
       <ref role="30HIoZ" to="velc:1wu5Hv5YeAl" resolve="SpinExecutable" />
@@ -625,7 +625,7 @@
     </node>
   </node>
   <node concept="3O_FC3" id="1wu5Hv5Zx$B">
-    <property role="TrG5h" value="makefile" />
+    <property role="TrG5h" value="Makefile" />
     <node concept="3O_Fa1" id="6GqYvBOftxV" role="3O_FaT">
       <property role="3O_Fa2" value="all" />
       <node concept="3O_EAZ" id="6GqYvBOftxX" role="3O_FaZ">
