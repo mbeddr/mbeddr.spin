@@ -63,6 +63,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -361,6 +364,19 @@
             <property role="lacIc" value="&quot;" />
           </node>
           <node concept="l8MVK" id="6rTOrQxmm9q" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="HmUOIGEuZn">
+    <property role="3GE5qa" value="generation_helper" />
+    <ref role="WuzLi" to="velc:HmUOIGEul1" resolve="UerrorPrototype" />
+    <node concept="11bSqf" id="HmUOIGEuZo" role="11c4hB">
+      <node concept="3clFbS" id="HmUOIGEuZp" role="2VODD2">
+        <node concept="lc7rE" id="HmUOIGEvNw" role="3cqZAp">
+          <node concept="la8eA" id="HmUOIGEvNM" role="lcghm">
+            <property role="lacIc" value="void (*uerror)(char*);" />
+          </node>
         </node>
       </node>
     </node>

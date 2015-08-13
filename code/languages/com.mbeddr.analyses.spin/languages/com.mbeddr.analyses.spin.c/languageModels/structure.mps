@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="ir22" ref="r:f7aadd1f-58b5-46f2-bd42-e7f922dcc16e(com.mbeddr.analyses.spin.promela.structure)" implicit="true" />
@@ -34,6 +35,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -132,6 +136,18 @@
     </node>
     <node concept="PrWs8" id="6rTOrQxlXkn" role="PzmwI">
       <ref role="PrY4T" to="ir22:GpUw9S5_Xa" resolve="IPromelaModelContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="HmUOIGEul1">
+    <property role="TrG5h" value="UerrorPrototype" />
+    <property role="34LRSv" value="uerror_prototype" />
+    <property role="3GE5qa" value="generation_helper" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="HmUOIGEum5" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:3VlwR$fEpF9" resolve="IInstantiatedOnlyInGenerators" />
+    </node>
+    <node concept="PrWs8" id="HmUOIGF3Qc" role="PzmwI">
+      <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
   </node>
 </model>

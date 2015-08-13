@@ -58,6 +58,11 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="6rTOrQxhZtb">
     <ref role="1XX52x" to="velc:6rTOrQxhZsV" resolve="CDecl" />
@@ -280,6 +285,13 @@
         </node>
       </node>
       <node concept="l2Vlx" id="6rTOrQxlXkY" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="HmUOIGEv4f">
+    <property role="3GE5qa" value="generation_helper" />
+    <ref role="1XX52x" to="velc:HmUOIGEul1" resolve="UerrorPrototype" />
+    <node concept="3F0ifn" id="HmUOIGEvuy" role="2wV5jI">
+      <property role="3F0ifm" value="uerror_prototype" />
     </node>
   </node>
 </model>

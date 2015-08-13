@@ -95,6 +95,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -262,6 +265,27 @@
         </node>
       </node>
       <node concept="10P_77" id="1wu5Hv6bKKs" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="HmUOIGF3Qk">
+    <property role="3GE5qa" value="generation_helper" />
+    <ref role="13h7C2" to="velc:HmUOIGEul1" resolve="UerrorPrototype" />
+    <node concept="13hLZK" id="HmUOIGF3Ql" role="13h7CW">
+      <node concept="3clFbS" id="HmUOIGF3Qm" role="2VODD2">
+        <node concept="3clFbF" id="HmUOIGF3Ue" role="3cqZAp">
+          <node concept="37vLTI" id="HmUOIGF4Q0" role="3clFbG">
+            <node concept="Xl_RD" id="HmUOIGF4QM" role="37vLTx">
+              <property role="Xl_RC" value="uerror_prototype" />
+            </node>
+            <node concept="2OqwBi" id="HmUOIGF3YP" role="37vLTJ">
+              <node concept="13iPFW" id="HmUOIGF3Ud" role="2Oq$k0" />
+              <node concept="3TrcHB" id="HmUOIGF4nJ" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
