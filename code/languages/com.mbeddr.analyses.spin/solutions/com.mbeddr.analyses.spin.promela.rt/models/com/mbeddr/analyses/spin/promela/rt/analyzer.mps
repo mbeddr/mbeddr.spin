@@ -67,16 +67,8 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
-        <child id="1164879758292" name="body" index="SfCbr" />
-        <child id="1164903496223" name="catchClause" index="TEbGg" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
-        <child id="1164903359218" name="catchBody" index="TDEfX" />
-        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
@@ -87,8 +79,8 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -126,7 +118,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -171,7 +162,6 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
-      <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -308,11 +298,48 @@
         </node>
         <node concept="3cpWs8" id="7Rf0$0HRzUN" role="3cqZAp">
           <node concept="3cpWsn" id="7Rf0$0HRzUQ" role="3cpWs9">
-            <property role="TrG5h" value="trailFileContent" />
+            <property role="TrG5h" value="trail" />
             <node concept="17QB3L" id="7Rf0$0HRzUL" role="1tU5fm" />
-            <node concept="1rXfSq" id="7Rf0$0HT26A" role="33vP2m">
-              <ref role="37wK5l" node="7Rf0$0HR$j0" resolve="readTrailFile" />
+            <node concept="Xl_RD" id="HmUOIG_4HU" role="33vP2m">
+              <property role="Xl_RC" value="" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="HmUOIG_4ju" role="3cqZAp">
+          <node concept="3clFbS" id="HmUOIG_4jw" role="3clFbx">
+            <node concept="3cpWs8" id="HmUOIG_aWe" role="3cqZAp">
+              <node concept="3cpWsn" id="HmUOIG_aWf" role="3cpWs9">
+                <property role="TrG5h" value="trailRes" />
+                <node concept="3uibUv" id="HmUOIG_aWg" role="1tU5fm">
+                  <ref role="3uigEE" to="8e9v:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+                </node>
+                <node concept="2YIFZM" id="HmUOIG_b6H" role="33vP2m">
+                  <ref role="37wK5l" to="xm5f:HmUOIG_5a1" resolve="readAndExecuteTrail" />
+                  <ref role="1Pybhc" to="xm5f:4kcU3YrkdpN" resolve="SpinRunner" />
+                  <node concept="37vLTw" id="HmUOIG_b6I" role="37wK5m">
+                    <ref role="3cqZAo" node="1wu5Hv6fvDm" resolve="promelaModel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="HmUOIG_bdx" role="3cqZAp">
+              <node concept="37vLTI" id="HmUOIG_bEw" role="3clFbG">
+                <node concept="2OqwBi" id="HmUOIG_cfs" role="37vLTx">
+                  <node concept="37vLTw" id="HmUOIG_bHK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="HmUOIG_aWf" resolve="trailRes" />
+                  </node>
+                  <node concept="liA8E" id="HmUOIG_cMd" role="2OqNvi">
+                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="HmUOIG_bdv" role="37vLTJ">
+                  <ref role="3cqZAo" node="7Rf0$0HRzUQ" resolve="trail" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1rXfSq" id="HmUOIG_4q8" role="3clFbw">
+            <ref role="37wK5l" node="7Rf0$0HR$j0" resolve="trailFileExists" />
           </node>
         </node>
         <node concept="3cpWs8" id="1wu5Hv6fyJR" role="3cqZAp">
@@ -333,7 +360,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="7Rf0$0HT2Dy" role="37wK5m">
-                  <ref role="3cqZAo" node="7Rf0$0HRzUQ" resolve="trailFileContent" />
+                  <ref role="3cqZAo" node="7Rf0$0HRzUQ" resolve="trail" />
                 </node>
                 <node concept="2OqwBi" id="1wu5Hv6fzU2" role="37wK5m">
                   <node concept="37vLTw" id="1wu5Hv6fzRu" role="2Oq$k0">
@@ -371,7 +398,7 @@
     <node concept="2tJIrI" id="7Rf0$0HR$2e" role="jymVt" />
     <node concept="3clFb_" id="7Rf0$0HR$j0" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="readTrailFile" />
+      <property role="TrG5h" value="trailFileExists" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
@@ -389,7 +416,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7Rf0$0HSQys" role="3cqZAp" />
         <node concept="3cpWs8" id="7Rf0$0HSMpj" role="3cqZAp">
           <node concept="3cpWsn" id="7Rf0$0HSMpk" role="3cpWs9">
             <property role="TrG5h" value="listFiles" />
@@ -413,35 +439,15 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="7Rf0$0HSYe8" role="3cqZAp">
-          <node concept="3cpWsn" id="7Rf0$0HSYe9" role="3cpWs9">
-            <property role="TrG5h" value="trailFile" />
-            <node concept="3uibUv" id="7Rf0$0HSYea" role="1tU5fm">
-              <ref role="3uigEE" to="fxg7:~File" resolve="File" />
-            </node>
-            <node concept="10Nm6u" id="7Rf0$0HSYp3" role="33vP2m" />
-          </node>
-        </node>
         <node concept="1Dw8fO" id="7Rf0$0HSRj8" role="3cqZAp">
           <node concept="3clFbS" id="7Rf0$0HSRja" role="2LFqv$">
             <node concept="3clFbJ" id="7Rf0$0HSU3s" role="3cqZAp">
               <node concept="3clFbS" id="7Rf0$0HSU3u" role="3clFbx">
-                <node concept="3clFbF" id="7Rf0$0HSYsh" role="3cqZAp">
-                  <node concept="37vLTI" id="7Rf0$0HSYBG" role="3clFbG">
-                    <node concept="AH0OO" id="7Rf0$0HSYPp" role="37vLTx">
-                      <node concept="37vLTw" id="7Rf0$0HSYRQ" role="AHEQo">
-                        <ref role="3cqZAo" node="7Rf0$0HSRjb" resolve="i" />
-                      </node>
-                      <node concept="37vLTw" id="7Rf0$0HSYHv" role="AHHXb">
-                        <ref role="3cqZAo" node="7Rf0$0HSMpk" resolve="listFiles" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="7Rf0$0HSYsf" role="37vLTJ">
-                      <ref role="3cqZAo" node="7Rf0$0HSYe9" resolve="trailFile" />
-                    </node>
+                <node concept="3cpWs6" id="HmUOIG_1Ji" role="3cqZAp">
+                  <node concept="3clFbT" id="HmUOIG_1KR" role="3cqZAk">
+                    <property role="3clFbU" value="true" />
                   </node>
                 </node>
-                <node concept="3zACq4" id="7Rf0$0HSYUU" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="7Rf0$0HSWkh" role="3clFbw">
                 <node concept="2OqwBi" id="7Rf0$0HSV4_" role="2Oq$k0">
@@ -490,64 +496,16 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7Rf0$0HSYVA" role="3cqZAp" />
-        <node concept="3cpWs8" id="7Rf0$0HSZR9" role="3cqZAp">
-          <node concept="3cpWsn" id="7Rf0$0HSZRc" role="3cpWs9">
-            <property role="TrG5h" value="res" />
-            <node concept="17QB3L" id="7Rf0$0HSZR7" role="1tU5fm" />
-            <node concept="Xl_RD" id="7Rf0$0HT05h" role="33vP2m">
-              <property role="Xl_RC" value="" />
-            </node>
-          </node>
-        </node>
-        <node concept="SfApY" id="7Rf0$0HT0l2" role="3cqZAp">
-          <node concept="3clFbS" id="7Rf0$0HT0l4" role="SfCbr">
-            <node concept="3clFbF" id="7Rf0$0HT17A" role="3cqZAp">
-              <node concept="37vLTI" id="7Rf0$0HT1eD" role="3clFbG">
-                <node concept="37vLTw" id="7Rf0$0HT17$" role="37vLTJ">
-                  <ref role="3cqZAo" node="7Rf0$0HSZRc" resolve="res" />
-                </node>
-                <node concept="2YIFZM" id="7Rf0$0HSZyS" role="37vLTx">
-                  <ref role="1Pybhc" to="p73q:~FileUtils" resolve="FileUtils" />
-                  <ref role="37wK5l" to="p73q:~FileUtils.readFileToString(java.io.File):java.lang.String" resolve="readFileToString" />
-                  <node concept="37vLTw" id="7Rf0$0HSZAn" role="37wK5m">
-                    <ref role="3cqZAo" node="7Rf0$0HSYe9" resolve="trailFile" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="7Rf0$0HT0l5" role="TEbGg">
-            <node concept="3clFbS" id="7Rf0$0HT0l7" role="TDEfX">
-              <node concept="3clFbF" id="7Rf0$0HT0A5" role="3cqZAp">
-                <node concept="2OqwBi" id="7Rf0$0HT0AI" role="3clFbG">
-                  <node concept="37vLTw" id="7Rf0$0HT0A4" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7Rf0$0HT0l9" resolve="e" />
-                  </node>
-                  <node concept="liA8E" id="7Rf0$0HT0QG" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~Throwable.printStackTrace():void" resolve="printStackTrace" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="7Rf0$0HT0l9" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="7Rf0$0HT0xI" role="1tU5fm">
-                <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="7Rf0$0HSLs9" role="3cqZAp">
-          <node concept="37vLTw" id="7Rf0$0HT1Hu" role="3cqZAk">
-            <ref role="3cqZAo" node="7Rf0$0HSZRc" resolve="res" />
+          <node concept="3clFbT" id="HmUOIG_2th" role="3cqZAk">
+            <property role="3clFbU" value="false" />
           </node>
         </node>
       </node>
       <node concept="3Tm6S6" id="7Rf0$0HR$ap" role="1B3o_S" />
-      <node concept="17QB3L" id="7Rf0$0HR$hp" role="3clF45" />
+      <node concept="10P_77" id="HmUOIG_2DN" role="3clF45" />
       <node concept="NWlO9" id="7Rf0$0HT3lk" role="lGtFl">
-        <property role="NWlVz" value="Reads the .trail file if exists." />
+        <property role="NWlVz" value="Returns true if the .trail file exists." />
       </node>
     </node>
     <node concept="NWlO9" id="7Rf0$0HT2MT" role="lGtFl">

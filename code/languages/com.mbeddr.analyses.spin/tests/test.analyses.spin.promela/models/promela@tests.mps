@@ -13,6 +13,7 @@
     <import index="hr62" ref="r:0f006508-b2f4-4b98-82de-5b32de29d868(com.mbeddr.analyses.spin.promela.rt.testing_utils)" />
     <import index="8e9v" ref="r:a21516a4-23a5-4dc7-826d-37c3fde5c4e3(com.mbeddr.analyses.utils.tools)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="5do7" ref="r:42e0f0fc-96f0-4fca-9aeb-f9625e145b23(com.mbeddr.analyses.spin.promela.rt.analyzer)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -30,6 +31,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -104,8 +108,8 @@
         <node concept="3cpWs8" id="4Nq31LVtNqv" role="3cqZAp">
           <node concept="3cpWsn" id="4Nq31LVtNqw" role="3cpWs9">
             <property role="TrG5h" value="res" />
-            <node concept="3uibUv" id="4Nq31LVtNMx" role="1tU5fm">
-              <ref role="3uigEE" to="8e9v:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+            <node concept="3uibUv" id="HmUOIGCDue" role="1tU5fm">
+              <ref role="3uigEE" to="5do7:1wu5Hv6fnnb" resolve="SpinResult" />
             </node>
             <node concept="2YIFZM" id="4Nq31LVtNqx" role="33vP2m">
               <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
@@ -131,14 +135,14 @@
               <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="3cpWs3" id="4Nq31LVunT6" role="37wK5m">
                 <node concept="Xl_RD" id="4Nq31LVunUS" role="3uHU7B">
-                  <property role="Xl_RC" value="Output: \n\n" />
+                  <property role="Xl_RC" value="Trail: \n\n" />
                 </node>
                 <node concept="2OqwBi" id="4Nq31LVunG1" role="3uHU7w">
                   <node concept="37vLTw" id="4Nq31LVunFp" role="2Oq$k0">
                     <ref role="3cqZAo" node="4Nq31LVtNqw" resolve="res" />
                   </node>
-                  <node concept="liA8E" id="4Nq31LVunSa" role="2OqNvi">
-                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+                  <node concept="2OwXpG" id="HmUOIGCUZu" role="2OqNvi">
+                    <ref role="2Oxat5" to="5do7:7Rf0$0HT2cv" resolve="trailOutput" />
                   </node>
                 </node>
               </node>
@@ -152,14 +156,14 @@
               <node concept="37vLTw" id="4Nq31LVtNTy" role="2Oq$k0">
                 <ref role="3cqZAo" node="4Nq31LVtNqw" resolve="res" />
               </node>
-              <node concept="liA8E" id="4Nq31LVtOFH" role="2OqNvi">
-                <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+              <node concept="2OwXpG" id="HmUOIGCGV4" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:7Rf0$0HT2cv" resolve="trailOutput" />
               </node>
             </node>
             <node concept="liA8E" id="4Nq31LVu8z5" role="2OqNvi">
               <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="Xl_RD" id="4Nq31LVuhnH" role="37wK5m">
-                <property role="Xl_RC" value="Hello process, my pid is: 1" />
+                <property role="Xl_RC" value="init process, my pid is: 0" />
               </node>
             </node>
           </node>
@@ -179,8 +183,8 @@
         <node concept="3cpWs8" id="24G9CRyL3yE" role="3cqZAp">
           <node concept="3cpWsn" id="24G9CRyL3yF" role="3cpWs9">
             <property role="TrG5h" value="res" />
-            <node concept="3uibUv" id="24G9CRyL3yG" role="1tU5fm">
-              <ref role="3uigEE" to="8e9v:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+            <node concept="3uibUv" id="HmUOIGCEeJ" role="1tU5fm">
+              <ref role="3uigEE" to="5do7:1wu5Hv6fnnb" resolve="SpinResult" />
             </node>
             <node concept="2YIFZM" id="24G9CRyL3yH" role="33vP2m">
               <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
@@ -212,8 +216,8 @@
                   <node concept="37vLTw" id="24G9CRyL7ci" role="2Oq$k0">
                     <ref role="3cqZAo" node="24G9CRyL3yF" resolve="res" />
                   </node>
-                  <node concept="liA8E" id="24G9CRyL7cj" role="2OqNvi">
-                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+                  <node concept="2OwXpG" id="HmUOIGCEui" role="2OqNvi">
+                    <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
                   </node>
                 </node>
               </node>
@@ -227,8 +231,8 @@
               <node concept="37vLTw" id="24G9CRyL3yY" role="2Oq$k0">
                 <ref role="3cqZAo" node="24G9CRyL3yF" resolve="res" />
               </node>
-              <node concept="liA8E" id="24G9CRyL3yZ" role="2OqNvi">
-                <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+              <node concept="2OwXpG" id="HmUOIGCEG$" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
               </node>
             </node>
             <node concept="liA8E" id="24G9CRyL3z0" role="2OqNvi">
@@ -251,8 +255,8 @@
         <node concept="3cpWs8" id="24G9CRyL9uc" role="3cqZAp">
           <node concept="3cpWsn" id="24G9CRyL9ud" role="3cpWs9">
             <property role="TrG5h" value="res" />
-            <node concept="3uibUv" id="24G9CRyL9ue" role="1tU5fm">
-              <ref role="3uigEE" to="8e9v:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+            <node concept="3uibUv" id="HmUOIGCCKD" role="1tU5fm">
+              <ref role="3uigEE" to="5do7:1wu5Hv6fnnb" resolve="SpinResult" />
             </node>
             <node concept="2YIFZM" id="24G9CRyL9uf" role="33vP2m">
               <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
@@ -284,8 +288,8 @@
                   <node concept="37vLTw" id="24G9CRyL9uq" role="2Oq$k0">
                     <ref role="3cqZAo" node="24G9CRyL9ud" resolve="res" />
                   </node>
-                  <node concept="liA8E" id="24G9CRyL9ur" role="2OqNvi">
-                    <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+                  <node concept="2OwXpG" id="HmUOIGCD4t" role="2OqNvi">
+                    <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
                   </node>
                 </node>
               </node>
@@ -299,8 +303,8 @@
               <node concept="37vLTw" id="24G9CRyL9uw" role="2Oq$k0">
                 <ref role="3cqZAo" node="24G9CRyL9ud" resolve="res" />
               </node>
-              <node concept="liA8E" id="24G9CRyL9ux" role="2OqNvi">
-                <ref role="37wK5l" to="8e9v:4CtHBqNls$h" resolve="getOutputString" />
+              <node concept="2OwXpG" id="HmUOIGCDiJ" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
               </node>
             </node>
             <node concept="liA8E" id="24G9CRyL9uy" role="2OqNvi">
