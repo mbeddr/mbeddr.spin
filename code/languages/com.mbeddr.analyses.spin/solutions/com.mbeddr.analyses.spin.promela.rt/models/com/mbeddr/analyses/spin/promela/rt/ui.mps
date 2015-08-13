@@ -135,6 +135,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6izRX53pUZ6" role="jymVt" />
+    <node concept="312cEg" id="7Rf0$0HTcyL" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="trailText" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="7Rf0$0HTcyM" role="1B3o_S" />
+      <node concept="3uibUv" id="7Rf0$0HTcyN" role="1tU5fm">
+        <ref role="3uigEE" to="dbrf:~JTextArea" resolve="JTextArea" />
+      </node>
+      <node concept="NWlO9" id="7Rf0$0HTcyO" role="lGtFl">
+        <property role="NWlVz" value="Text area containing the .trail file." />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7Rf0$0HTclk" role="jymVt" />
     <node concept="312cEg" id="4kcU3YrmsGl" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -255,6 +269,65 @@
           </node>
         </node>
         <node concept="3clFbH" id="6izRX53qsyW" role="3cqZAp" />
+        <node concept="3clFbF" id="7Rf0$0HTcVH" role="3cqZAp">
+          <node concept="37vLTI" id="7Rf0$0HTcVI" role="3clFbG">
+            <node concept="2ShNRf" id="7Rf0$0HTcVJ" role="37vLTx">
+              <node concept="1pGfFk" id="7Rf0$0HTcVK" role="2ShVmc">
+                <ref role="37wK5l" to="dbrf:~JTextArea.&lt;init&gt;(java.lang.String,int,int)" resolve="JTextArea" />
+                <node concept="Xl_RD" id="7Rf0$0HTcVL" role="37wK5m">
+                  <property role="Xl_RC" value="Please start an analysis on a promela model." />
+                </node>
+                <node concept="3cmrfG" id="7Rf0$0HTcVM" role="37wK5m">
+                  <property role="3cmrfH" value="160" />
+                </node>
+                <node concept="3cmrfG" id="7Rf0$0HTcVN" role="37wK5m">
+                  <property role="3cmrfH" value="580" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="7Rf0$0HTdeD" role="37vLTJ">
+              <ref role="3cqZAo" node="7Rf0$0HTcyL" resolve="trailText" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7Rf0$0HTcVP" role="3cqZAp">
+          <node concept="2OqwBi" id="7Rf0$0HTcVQ" role="3clFbG">
+            <node concept="37vLTw" id="7Rf0$0HTdrg" role="2Oq$k0">
+              <ref role="3cqZAo" node="7Rf0$0HTcyL" resolve="trailText" />
+            </node>
+            <node concept="liA8E" id="7Rf0$0HTcVS" role="2OqNvi">
+              <ref role="37wK5l" to="oj8w:~JTextComponent.setEditable(boolean):void" resolve="setEditable" />
+              <node concept="3clFbT" id="7Rf0$0HTcVT" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7Rf0$0HTcVU" role="3cqZAp">
+          <node concept="3cpWsn" id="7Rf0$0HTcVV" role="3cpWs9">
+            <property role="TrG5h" value="trailTextScroll" />
+            <node concept="3uibUv" id="7Rf0$0HTcVW" role="1tU5fm">
+              <ref role="3uigEE" to="dbrf:~JScrollPane" resolve="JScrollPane" />
+            </node>
+            <node concept="2ShNRf" id="7Rf0$0HTcVX" role="33vP2m">
+              <node concept="1pGfFk" id="7Rf0$0HTcVY" role="2ShVmc">
+                <ref role="37wK5l" to="dbrf:~JScrollPane.&lt;init&gt;(java.awt.Component,int,int)" resolve="JScrollPane" />
+                <node concept="37vLTw" id="7Rf0$0HTdBP" role="37wK5m">
+                  <ref role="3cqZAo" node="7Rf0$0HTcyL" resolve="trailText" />
+                </node>
+                <node concept="10M0yZ" id="7Rf0$0HTcW0" role="37wK5m">
+                  <ref role="3cqZAo" to="dbrf:~ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS" resolve="VERTICAL_SCROLLBAR_ALWAYS" />
+                  <ref role="1PxDUh" to="dbrf:~ScrollPaneConstants" resolve="ScrollPaneConstants" />
+                </node>
+                <node concept="10M0yZ" id="7Rf0$0HTcW1" role="37wK5m">
+                  <ref role="1PxDUh" to="dbrf:~ScrollPaneConstants" resolve="ScrollPaneConstants" />
+                  <ref role="3cqZAo" to="dbrf:~ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS" resolve="HORIZONTAL_SCROLLBAR_ALWAYS" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7Rf0$0HTcKT" role="3cqZAp" />
         <node concept="3clFbF" id="4kcU3Yrmt5Z" role="3cqZAp">
           <node concept="37vLTI" id="4kcU3Yrmt60" role="3clFbG">
             <node concept="2ShNRf" id="4kcU3Yrmt61" role="37vLTx">
@@ -386,6 +459,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="4$9c1ZyA8WE" role="3cqZAp" />
+        <node concept="3clFbF" id="7Rf0$0HTdDV" role="3cqZAp">
+          <node concept="2OqwBi" id="7Rf0$0HTdDW" role="3clFbG">
+            <node concept="37vLTw" id="7Rf0$0HTdDX" role="2Oq$k0">
+              <ref role="3cqZAo" node="M7_V6u5fO1" resolve="tabbed" />
+            </node>
+            <node concept="liA8E" id="7Rf0$0HTdDY" role="2OqNvi">
+              <ref role="37wK5l" to="dbrf:~JTabbedPane.addTab(java.lang.String,java.awt.Component):void" resolve="addTab" />
+              <node concept="Xl_RD" id="7Rf0$0HTdDZ" role="37wK5m">
+                <property role="Xl_RC" value="Stdout" />
+              </node>
+              <node concept="37vLTw" id="7Rf0$0HTdE0" role="37wK5m">
+                <ref role="3cqZAo" node="6izRX53ql8I" resolve="rawTextScroll" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="M7_V6u5rLf" role="3cqZAp">
           <node concept="2OqwBi" id="M7_V6u5sB4" role="3clFbG">
             <node concept="37vLTw" id="M7_V6u5rLd" role="2Oq$k0">
@@ -394,10 +483,10 @@
             <node concept="liA8E" id="M7_V6u5uEx" role="2OqNvi">
               <ref role="37wK5l" to="dbrf:~JTabbedPane.addTab(java.lang.String,java.awt.Component):void" resolve="addTab" />
               <node concept="Xl_RD" id="M7_V6u7c4N" role="37wK5m">
-                <property role="Xl_RC" value="Stdout" />
+                <property role="Xl_RC" value="Trail" />
               </node>
-              <node concept="37vLTw" id="M7_V6u5uFC" role="37wK5m">
-                <ref role="3cqZAo" node="6izRX53ql8I" resolve="rawTextScroll" />
+              <node concept="37vLTw" id="7Rf0$0HTe7Y" role="37wK5m">
+                <ref role="3cqZAo" node="7Rf0$0HTcVV" resolve="trailTextScroll" />
               </node>
             </node>
           </node>
@@ -480,6 +569,30 @@
           </node>
         </node>
         <node concept="3clFbH" id="M7_V6u7K0N" role="3cqZAp" />
+        <node concept="3clFbF" id="7Rf0$0HTc58" role="3cqZAp">
+          <node concept="2OqwBi" id="7Rf0$0HTc59" role="3clFbG">
+            <node concept="37vLTw" id="7Rf0$0HTeov" role="2Oq$k0">
+              <ref role="3cqZAo" node="7Rf0$0HTcyL" resolve="trailText" />
+            </node>
+            <node concept="liA8E" id="7Rf0$0HTc5b" role="2OqNvi">
+              <ref role="37wK5l" to="oj8w:~JTextComponent.setText(java.lang.String):void" resolve="setText" />
+              <node concept="37vLTw" id="7Rf0$0HTfo0" role="37wK5m">
+                <ref role="3cqZAo" node="7Rf0$0HTf3T" resolve="trail" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7Rf0$0HTc5d" role="3cqZAp">
+          <node concept="2OqwBi" id="7Rf0$0HTc5e" role="3clFbG">
+            <node concept="37vLTw" id="7Rf0$0HTeKM" role="2Oq$k0">
+              <ref role="3cqZAo" node="7Rf0$0HTcyL" resolve="trailText" />
+            </node>
+            <node concept="liA8E" id="7Rf0$0HTc5g" role="2OqNvi">
+              <ref role="37wK5l" to="oj8w:~JTextComponent.updateUI():void" resolve="updateUI" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7Rf0$0HTc1x" role="3cqZAp" />
         <node concept="3clFbF" id="4kcU3YrmuT9" role="3cqZAp">
           <node concept="2OqwBi" id="4kcU3YrmuTa" role="3clFbG">
             <node concept="37vLTw" id="4kcU3YrmvnC" role="2Oq$k0">
@@ -537,6 +650,10 @@
       <node concept="37vLTG" id="6izRX53qxH4" role="3clF46">
         <property role="TrG5h" value="res" />
         <node concept="17QB3L" id="4kcU3YrkLSI" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7Rf0$0HTf3T" role="3clF46">
+        <property role="TrG5h" value="trail" />
+        <node concept="17QB3L" id="7Rf0$0HTfkD" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="4kcU3YrmuEo" role="3clF46">
         <property role="TrG5h" value="err" />

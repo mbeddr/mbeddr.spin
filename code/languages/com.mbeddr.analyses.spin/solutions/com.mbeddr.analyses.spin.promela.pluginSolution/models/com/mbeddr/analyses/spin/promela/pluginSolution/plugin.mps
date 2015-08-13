@@ -302,6 +302,9 @@
               <node concept="37vLTw" id="3Ymokd9Fl59" role="37wK5m">
                 <ref role="3cqZAo" node="3Ymokd9FfxU" resolve="res" />
               </node>
+              <node concept="37vLTw" id="7Rf0$0HT7bj" role="37wK5m">
+                <ref role="3cqZAo" node="7Rf0$0HT72Z" resolve="trail" />
+              </node>
               <node concept="37vLTw" id="4kcU3Yrmw8h" role="37wK5m">
                 <ref role="3cqZAo" node="4kcU3Yrmw2b" resolve="err" />
               </node>
@@ -312,6 +315,10 @@
       <node concept="37vLTG" id="4kcU3YrkTaQ" role="3clF46">
         <property role="TrG5h" value="cmd" />
         <node concept="17QB3L" id="4kcU3YrkTfh" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7Rf0$0HT72Z" role="3clF46">
+        <property role="TrG5h" value="trail" />
+        <node concept="17QB3L" id="7Rf0$0HT7b0" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="3Ymokd9FfxU" role="3clF46">
         <property role="TrG5h" value="res" />
@@ -430,6 +437,14 @@
                   <ref role="2Oxat5" to="5do7:1wu5Hv6fz25" resolve="rawCommand" />
                 </node>
               </node>
+              <node concept="2OqwBi" id="7Rf0$0HT4id" role="2XxRq1">
+                <node concept="37vLTw" id="7Rf0$0HT4gx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7F8$WoVMoqj" resolve="res" />
+                </node>
+                <node concept="2OwXpG" id="7Rf0$0HT4xm" role="2OqNvi">
+                  <ref role="2Oxat5" to="5do7:7Rf0$0HT2cv" resolve="trailOutput" />
+                </node>
+              </node>
               <node concept="2OqwBi" id="1wu5Hv6fFZl" role="2XxRq1">
                 <node concept="37vLTw" id="7F8$WoVMoXz" role="2Oq$k0">
                   <ref role="3cqZAo" node="7F8$WoVMoqj" resolve="res" />
@@ -513,6 +528,9 @@
             <node concept="2XshWL" id="1wu5Hv6fM4I" role="2OqNvi">
               <ref role="2WH_rO" node="3Ymokd9FeZe" resolve="setOutput" />
               <node concept="Xl_RD" id="1wu5Hv6fM5B" role="2XxRq1">
+                <property role="Xl_RC" value="" />
+              </node>
+              <node concept="Xl_RD" id="7Rf0$0HTmUI" role="2XxRq1">
                 <property role="Xl_RC" value="" />
               </node>
               <node concept="Xl_RD" id="1wu5Hv6fM6R" role="2XxRq1">
