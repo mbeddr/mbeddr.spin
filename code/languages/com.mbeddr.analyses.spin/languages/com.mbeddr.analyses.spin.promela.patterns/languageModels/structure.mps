@@ -74,5 +74,22 @@
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
   </node>
+  <node concept="1TIwiD" id="HmUOIGKwZS">
+    <property role="TrG5h" value="Loop" />
+    <property role="34LRSv" value="loop" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyj" id="HmUOIGKxf4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="times" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="HmUOIGKxf6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+    </node>
+  </node>
 </model>
 
