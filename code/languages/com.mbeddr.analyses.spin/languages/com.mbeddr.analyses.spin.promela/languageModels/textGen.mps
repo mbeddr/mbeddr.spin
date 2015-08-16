@@ -13,6 +13,7 @@
     <import index="ir22" ref="r:f7aadd1f-58b5-46f2-bd42-e7f922dcc16e(com.mbeddr.analyses.spin.promela.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="6n5e" ref="r:21a752c5-ce3e-4f24-9768-ac2e963d3f7d(com.mbeddr.analyses.spin.promela.behavior)" implicit="true" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" implicit="true" />
   </imports>
@@ -281,12 +282,13 @@
                   <ref role="2Gs0qQ" node="GpUw9S9Ey4" resolve="c" />
                 </node>
               </node>
+              <node concept="l8MVK" id="25oSEXyd7Vq" role="lcghm" />
             </node>
           </node>
           <node concept="2OqwBi" id="GpUw9S9EIc" role="2GsD0m">
             <node concept="117lpO" id="GpUw9S9Eyy" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="GpUw9S9Gfc" role="2OqNvi">
-              <ref role="3TtcxE" to="x27k:5_l8w1EmTdh" />
+            <node concept="2qgKlT" id="25oSEXyfoM_" role="2OqNvi">
+              <ref role="37wK5l" to="6n5e:25oSEXyeC2c" resolve="sortedContent" />
             </node>
           </node>
         </node>

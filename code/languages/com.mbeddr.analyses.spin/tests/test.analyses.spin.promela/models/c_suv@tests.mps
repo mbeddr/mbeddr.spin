@@ -467,5 +467,131 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="25oSEXyfTIY">
+    <property role="TrG5h" value="C_suv6" />
+    <node concept="1LZb2c" id="25oSEXyfTIZ" role="1SL9yI">
+      <property role="TrG5h" value="test1" />
+      <node concept="3cqZAl" id="25oSEXyfTJ0" role="3clF45" />
+      <node concept="3clFbS" id="25oSEXyfTJ1" role="3clF47">
+        <node concept="3cpWs8" id="25oSEXyfTJ2" role="3cqZAp">
+          <node concept="3cpWsn" id="25oSEXyfTJ3" role="3cpWs9">
+            <property role="TrG5h" value="res" />
+            <node concept="3uibUv" id="25oSEXyfTJ4" role="1tU5fm">
+              <ref role="3uigEE" to="5do7:1wu5Hv6fnnb" resolve="SpinResult" />
+            </node>
+            <node concept="2YIFZM" id="25oSEXyfTJ5" role="33vP2m">
+              <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
+              <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
+              <node concept="BaHAS" id="25oSEXyfTJ6" role="37wK5m">
+                <property role="BaHAW" value="c_suv6" />
+                <property role="BaGAP" value="" />
+              </node>
+              <node concept="Xl_RD" id="25oSEXyfTJ7" role="37wK5m">
+                <property role="Xl_RC" value="suv6_harness" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="25oSEXyfTJ8" role="3cqZAp" />
+        <node concept="3clFbF" id="25oSEXyfTJ9" role="3cqZAp">
+          <node concept="2OqwBi" id="25oSEXyfTJa" role="3clFbG">
+            <node concept="10M0yZ" id="25oSEXyfTJb" role="2Oq$k0">
+              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="25oSEXyfTJc" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="25oSEXyfTJd" role="37wK5m">
+                <node concept="Xl_RD" id="25oSEXyfTJe" role="3uHU7B">
+                  <property role="Xl_RC" value="Output: \n\n" />
+                </node>
+                <node concept="2OqwBi" id="25oSEXyfTJf" role="3uHU7w">
+                  <node concept="37vLTw" id="25oSEXyfTJg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="25oSEXyfTJ3" resolve="res" />
+                  </node>
+                  <node concept="2OwXpG" id="25oSEXyfTJh" role="2OqNvi">
+                    <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="25oSEXyfTJi" role="3cqZAp" />
+        <node concept="3vwNmj" id="25oSEXyfTJj" role="3cqZAp">
+          <node concept="2OqwBi" id="25oSEXyfTJk" role="3vwVQn">
+            <node concept="2OqwBi" id="25oSEXyfTJl" role="2Oq$k0">
+              <node concept="37vLTw" id="25oSEXyfTJm" role="2Oq$k0">
+                <ref role="3cqZAo" node="25oSEXyfTJ3" resolve="res" />
+              </node>
+              <node concept="2OwXpG" id="25oSEXyiPv_" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+              </node>
+            </node>
+            <node concept="liA8E" id="25oSEXyfTJo" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="25oSEXyfTJp" role="37wK5m">
+                <property role="Xl_RC" value="crt=16, sum=16" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="25oSEXyiPCS" role="3cqZAp">
+          <node concept="2OqwBi" id="25oSEXyiPCT" role="3vwVQn">
+            <node concept="2OqwBi" id="25oSEXyiPCU" role="2Oq$k0">
+              <node concept="37vLTw" id="25oSEXyiPCV" role="2Oq$k0">
+                <ref role="3cqZAo" node="25oSEXyfTJ3" resolve="res" />
+              </node>
+              <node concept="2OwXpG" id="25oSEXyiPCW" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+              </node>
+            </node>
+            <node concept="liA8E" id="25oSEXyiPCX" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="25oSEXyiPCY" role="37wK5m">
+                <property role="Xl_RC" value="crt=10, sum=26" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="25oSEXyiPKZ" role="3cqZAp">
+          <node concept="2OqwBi" id="25oSEXyiPL0" role="3vwVQn">
+            <node concept="2OqwBi" id="25oSEXyiPL1" role="2Oq$k0">
+              <node concept="37vLTw" id="25oSEXyiPL2" role="2Oq$k0">
+                <ref role="3cqZAo" node="25oSEXyfTJ3" resolve="res" />
+              </node>
+              <node concept="2OwXpG" id="25oSEXyiPL3" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+              </node>
+            </node>
+            <node concept="liA8E" id="25oSEXyiPL4" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="25oSEXyiPL5" role="37wK5m">
+                <property role="Xl_RC" value="crt=13, sum=39" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="25oSEXyiomI" role="3cqZAp">
+          <node concept="2OqwBi" id="25oSEXyiomJ" role="3vwVQn">
+            <node concept="2OqwBi" id="25oSEXyiomK" role="2Oq$k0">
+              <node concept="37vLTw" id="25oSEXyiomL" role="2Oq$k0">
+                <ref role="3cqZAo" node="25oSEXyfTJ3" resolve="res" />
+              </node>
+              <node concept="2OwXpG" id="25oSEXyiomM" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+              </node>
+            </node>
+            <node concept="liA8E" id="25oSEXyiomN" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="25oSEXyiomO" role="37wK5m">
+                <property role="Xl_RC" value="pan:1: assertion violated (sum &lt;= 30)" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
