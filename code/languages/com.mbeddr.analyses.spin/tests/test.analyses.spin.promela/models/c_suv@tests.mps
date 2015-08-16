@@ -593,5 +593,95 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="6qQmI_32wjM">
+    <property role="TrG5h" value="C_suv7" />
+    <node concept="1LZb2c" id="6qQmI_32wjN" role="1SL9yI">
+      <property role="TrG5h" value="test1" />
+      <node concept="3cqZAl" id="6qQmI_32wjO" role="3clF45" />
+      <node concept="3clFbS" id="6qQmI_32wjP" role="3clF47">
+        <node concept="3cpWs8" id="6qQmI_32wjQ" role="3cqZAp">
+          <node concept="3cpWsn" id="6qQmI_32wjR" role="3cpWs9">
+            <property role="TrG5h" value="res" />
+            <node concept="3uibUv" id="6qQmI_32wjS" role="1tU5fm">
+              <ref role="3uigEE" to="5do7:1wu5Hv6fnnb" resolve="SpinResult" />
+            </node>
+            <node concept="2YIFZM" id="6qQmI_32wjT" role="33vP2m">
+              <ref role="1Pybhc" to="hr62:4QGaVz5ry$K" resolve="SpinTestingUtils" />
+              <ref role="37wK5l" to="hr62:4QGaVz5ryAm" resolve="checkModel" />
+              <node concept="BaHAS" id="6qQmI_32wjU" role="37wK5m">
+                <property role="BaHAW" value="c_suv7" />
+                <property role="BaGAP" value="" />
+              </node>
+              <node concept="Xl_RD" id="6qQmI_32wjV" role="37wK5m">
+                <property role="Xl_RC" value="suv7_harness" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6qQmI_32wjW" role="3cqZAp" />
+        <node concept="3clFbF" id="6qQmI_32wjX" role="3cqZAp">
+          <node concept="2OqwBi" id="6qQmI_32wjY" role="3clFbG">
+            <node concept="10M0yZ" id="6qQmI_32wjZ" role="2Oq$k0">
+              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="6qQmI_32wk0" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="6qQmI_32wk1" role="37wK5m">
+                <node concept="Xl_RD" id="6qQmI_32wk2" role="3uHU7B">
+                  <property role="Xl_RC" value="Output: \n\n" />
+                </node>
+                <node concept="2OqwBi" id="6qQmI_32wk3" role="3uHU7w">
+                  <node concept="37vLTw" id="6qQmI_32wk4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6qQmI_32wjR" resolve="res" />
+                  </node>
+                  <node concept="2OwXpG" id="6qQmI_32wk5" role="2OqNvi">
+                    <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6qQmI_32wk6" role="3cqZAp" />
+        <node concept="3vwNmj" id="6qQmI_32wkl" role="3cqZAp">
+          <node concept="2OqwBi" id="6qQmI_32wkm" role="3vwVQn">
+            <node concept="2OqwBi" id="6qQmI_32wkn" role="2Oq$k0">
+              <node concept="37vLTw" id="6qQmI_32wko" role="2Oq$k0">
+                <ref role="3cqZAo" node="6qQmI_32wjR" resolve="res" />
+              </node>
+              <node concept="2OwXpG" id="6qQmI_32wkp" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6qQmI_32wkq" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="6qQmI_32wkr" role="37wK5m">
+                <property role="Xl_RC" value="currentCounter = 2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="6qQmI_32wks" role="3cqZAp">
+          <node concept="2OqwBi" id="6qQmI_32wkt" role="3vwVQn">
+            <node concept="2OqwBi" id="6qQmI_32wku" role="2Oq$k0">
+              <node concept="37vLTw" id="6qQmI_32wkv" role="2Oq$k0">
+                <ref role="3cqZAo" node="6qQmI_32wjR" resolve="res" />
+              </node>
+              <node concept="2OwXpG" id="6qQmI_32wkw" role="2OqNvi">
+                <ref role="2Oxat5" to="5do7:1wu5Hv6fz1d" resolve="spinRawOutput" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6qQmI_32wkx" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="6qQmI_32wky" role="37wK5m">
+                <property role="Xl_RC" value="pan:1: assertion violated (suv7_currentCounter != 2)" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
