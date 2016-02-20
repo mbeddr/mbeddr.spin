@@ -2,7 +2,7 @@
 <model ref="r:828f323f-b068-42aa-8988-4151fb6af01f(com.mbeddr.analyses.spin.promela.patterns.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -38,6 +39,7 @@
     <property role="TrG5h" value="PickNondet" />
     <property role="34LRSv" value="pick_nondet" />
     <property role="3GE5qa" value="" />
+    <property role="1pbfSe" value="565795770" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="1wu5Hv6a9W9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -61,6 +63,7 @@
   <node concept="1TIwiD" id="HmUOIGIC$N">
     <property role="TrG5h" value="Assume" />
     <property role="34LRSv" value="assume" />
+    <property role="1pbfSe" value="1206815618" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="HmUOIGID01" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -77,6 +80,7 @@
   <node concept="1TIwiD" id="HmUOIGKwZS">
     <property role="TrG5h" value="Loop" />
     <property role="34LRSv" value="loop" />
+    <property role="1pbfSe" value="1206322365" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="HmUOIGKxf4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -94,6 +98,7 @@
   <node concept="1TIwiD" id="3$JFeG$ZAIh">
     <property role="TrG5h" value="PickRandom" />
     <property role="34LRSv" value="pick_random" />
+    <property role="1pbfSe" value="1580079228" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="3$JFeG$ZQJA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
